@@ -1,4 +1,8 @@
-const ohNo = require('./hub');
+'use strict';
+
+// const errorhub = require('./hub');
+
+const events = require('./events');
 
 //we'll require in ohNo as a module
 //then run it somehow and listen to see what events it catches
@@ -24,7 +28,9 @@ try {
     stack: e.stack,
     clientid: 'user defined id'
   }
-  errorhub.emit('error', error)
+  console.log(error);
+  events.emit('error', error)
+
 }
 
 }
@@ -43,6 +49,7 @@ function test2(){
       stack: e.stack,
       clientid: 'user defined id'
     }
+    console.log(error);
     errorhub.emit('error', error)
   }
 }
@@ -59,7 +66,35 @@ function test3(){
       message:e.message,
       clientid: 'user defined id'
     }
-    errorhub.emit('error', error)
+    console.log(error);
+    // errorhub.emit('error', error)
   }
 
 }
+
+
+//// EXAMPLE API CALL
+/*
+
+function fetchLocationDataFromAPI(city, response) {
+  const API = `https://us1.locationiq.com/v1/search.php`;
+  let queryObject = {
+    key: process.env.GEOCODE_API_KEY,
+    q: city,
+    format: 'json'
+  };
+
+  superagent
+    .get(API)
+    .query(queryObject)
+    .then((apiData) => {
+      let location = new Location(apiData.body[0], city);
+      response.status(200).send(location);
+    })
+    .catch((e) => {
+      response.status(500).send('Something went wrong in LOCATION Route using superagent');
+      ohhNo.saveError(e)
+    });
+}
+
+*/

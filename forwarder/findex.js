@@ -3,43 +3,26 @@
 
 //WORK
 
-// JOB1: listen for errors
+//FORWARDER=======================================================
+
+const events = require('./events.js');
+
+// JOB1: listen for error event emitted from test file
+events.on('error', forwardError);
+
+function forwardError(payload){
+  console.log('this is from findex', payload);
+}
+
+// STEP 2: on error event, take in error payload, and create an event schema? research this
+// step 3: emit an 'index' event, send in event as a model instance to hub via payload
+// I don't think we need to export anything?
+
+
 // the forwarder will listen to our system to detect an error
 // does minimal work like timestamp or normalize data and passes to indexer
 
-//step 2: when it detects an error object send it to the indexer in the following format:
 
-try {
-  throw new ReferenceError('Hello', 'index.js', 10)
-  
-
-} catch (err) {
-  //console.log(err instanceof ReferenceError)  // true
-  let errorPayload = {
-    message:err.message,
-    clientid: 'user defined id'
-  }
-  errorhub.emit('error', errorPayload)
-
-  //ALTERNATIVE:
-  //just let coders send in params, then our function creates an object and sends it off
-  const ohNo = require('ohNo');
-  ohNo.recordError(type, time, string, stack, etc)
-
-
-//declare a class called event
-
-class Event(){
-
-  constructor(){
-
-  }
-
-  send(){
-    //on error event, create a new instance of event object?
-  }
-
-}
 
 
 //WHAT THIS SHOULD FEED TO INDEX:
@@ -47,3 +30,36 @@ class Event(){
 //AN OBJECT, WITH THESE PARAMS, FORMATTED LIKE THIS
 
 module.exports = Event;
+
+/**
+ * DROP TABLE IF EXISTS locations;
+
+CREATE TABLE locations (
+ id SERIAL PRIMARY KEY,
+ search_query VARCHAR(255),
+ formatted_query VARCHAR(255),
+ latitude DECIMAL(12,8),
+ longitude DECIMAL(12,8)
+);
+INSERT INTO locations ( search_query, formatted_query, latitude, longitude) VALUES ('seattle', 'usa', 13.2,12);
+SELECT * FROM locations;
+ */
+
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database

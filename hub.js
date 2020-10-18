@@ -6,3 +6,12 @@ const indexer = require('./indexer/iindex')
 //create ohNo
 
 module.exports = ohNo;
+
+
+class OHno {
+  constructor(e)
+
+  saveError(e) {
+    this.emit('error', e)
+  }
+}
