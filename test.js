@@ -3,7 +3,7 @@
 // const errorhub = require('./hub');
 
 const events = require('./events');
-require('./forwarder/forwarder');
+require('./forwarder/forwarder.js');
 
 //we'll require in ohNo as a module
 //then run it somehow and listen to see what events it catches
@@ -12,6 +12,8 @@ require('./forwarder/forwarder');
 test1();
 // test2();
 // test3();
+
+// This way doesn't seem very DRY. Is there a way to use an Error class to get the same output?
 
 
 function test1() {
