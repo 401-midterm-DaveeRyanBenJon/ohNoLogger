@@ -1,4 +1,5 @@
 'use strict';
+
 const events = require('../../events');
 require('../indexer-segment/indexer-segment');
 

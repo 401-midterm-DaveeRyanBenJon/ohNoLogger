@@ -21,11 +21,11 @@ function test1() {
   } catch (e) {
     // console.log(e instanceof ReferenceError)  // true
     let error = {
-      message:e.message,
+      message: e.message,
       name: e.name,
-      fileName: e.fileName,
-      lineNumber: e.lineNumber,
-      columnNumber: e.columnNumber,
+      filename: e.fileName,
+      linenumber: e.lineNumber,
+      columnnumber: e.columnNumber,
       stack: e.stack,
       clientid: 'user defined id'
     };
