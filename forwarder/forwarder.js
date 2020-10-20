@@ -47,3 +47,3658 @@ INSERT INTO locations ( search_query, formatted_query, latitude, longitude) VALU
 SELECT * FROM locations;
  */
 
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
+<<<<<<< Updated upstream:forwarder/forwarder.js
+=======
+
+
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+ //INDEXER=======================================================
+
+//STEP 1 PARSE:
+
+//1: listen for 'index' event emitted from hub file
+// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
+// 3: after transforming event, emit a 'save' event and pass to indexer
+
+
+
+
+//STEP 2 INDEX/SAVE
+
+//1: listen for 'save' event emitted from hub file
+// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
+// 2: on save event, take in event payload and save to our SQL database
+>>>>>>> Stashed changes:forwarder/findex.js
