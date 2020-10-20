@@ -4,11 +4,11 @@
 //WORK
 
 //FORWARDER=======================================================
-
-const events = require('./events.js');
+require('../test');
+const events = require('../events.js');
 
 // JOB1: listen for error event emitted from test file
-events.on('error', forwardError);
+events.on('test', forwardError);
 
 function forwardError(payload){
   console.log('this is from findex', payload);
@@ -29,7 +29,7 @@ function forwardError(payload){
 
 //AN OBJECT, WITH THESE PARAMS, FORMATTED LIKE THIS
 
-module.exports = Event;
+// module.exports = Event;
 
 /**
  * DROP TABLE IF EXISTS locations;
