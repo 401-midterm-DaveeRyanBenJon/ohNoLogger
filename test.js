@@ -10,10 +10,10 @@ require('./forwarder/forwarder.js');
 //it should spit the below 3 errors into our DB
 
 test1();
-// test2();
+test2();
 // test3();
 
-// This way doesn't seem very DRY. Is there a way to use an Error class to get the same output?
+
 
 
 function test1() {
@@ -35,24 +35,24 @@ function test1() {
   }
 }
 
-// function test2(){
+function test2(){
 
-//   try {
-//     throw new SyntaxError('Hello', 'someFile.js', 10);
-//   } catch (e) {
-//     let error = {
-//       message:e.message,
-//       name: e.name,
-//       fileName: e.fileName,
-//       lineNumber: e.lineNumber,
-//       columnNumber: e.columnNumber,
-//       stack: e.stack,
-//       clientid: 'user defined id'
-//     };
-//     // console.log(error);
-//     errorhub.emit('error', error);
-//   }
-// }
+  try {
+    throw new SyntaxError('test2', 'someFile.js', 10);
+  } catch (e) {
+    let error = {
+      message:e.message,
+      name: e.name,
+      fileName: e.fileName,
+      lineNumber: e.lineNumber,
+      columnNumber: e.columnNumber,
+      stack: e.stack,
+      clientid: 'user defined id'
+    };
+    // console.log(error);
+    events.emit('errEvent', error);
+  }
+}
 
 
 

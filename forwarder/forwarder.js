@@ -1,33 +1,20 @@
 'use strict';
 
-
-//WORK
-
-//FORWARDER=======================================================
+const events = require('../events.js');
 require('../test.js');
 require('../parser/parser.js');
-const events = require('../events.js');
 
-// JOB1: listen for error event emitted from test file
 events.on('errEvent', forwardError);
 
 function forwardError(payload) {
   events.emit('toParser', payload);
 }
 
-// STEP 2: on error event, take in error payload, and create an event schema? research this
-// step 3: emit an 'index' event, send in event as a model instance to hub via payload
-// I don't think we need to export anything?
 
 
-// the forwarder will listen to our system to detect an error
-// does minimal work like timestamp or normalize data and passes to indexer
 
-//WHAT THIS SHOULD FEED TO INDEX:
-
-//AN OBJECT, WITH THESE PARAMS, FORMATTED LIKE THIS
-
-// module.exports = Event;
+// 1: Listen for errEvent
+// 2: emit an 'toParser' event, send in event as a model instance to hub via payload
 
 /**
  * DROP TABLE IF EXISTS locations;
