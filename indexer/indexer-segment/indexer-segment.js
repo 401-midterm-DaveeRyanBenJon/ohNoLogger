@@ -1,4 +1,12 @@
 'use strict';
+
+const events = require('../../events.js');
+
+events.on('toIndexer',saveIndexer);
+function saveIndexer(payload){
+  console.log('this is indexer-seg toIndexer:', payload.message);
+
+}
 //STEP 2 INDEX/SAVE
 
 //1: listen for 'save' event emitted from hub file

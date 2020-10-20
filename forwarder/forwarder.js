@@ -12,7 +12,7 @@ const events = require('../events.js');
 events.on('errEvent', forwardError);
 
 function forwardError(payload){
-  console.log('this is from findex', payload);
+  console.log('this is from findex', payload.message);
   events.emit('toParser', payload);
 }
 
