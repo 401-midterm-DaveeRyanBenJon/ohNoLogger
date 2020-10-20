@@ -1,12 +1,8 @@
 'use strict';
 
-
-//WORK
-
-//FORWARDER=======================================================
+const events = require('../events.js');
 require('../test');
 require('../indexer/parser-segment/parser-segment');
-const events = require('../events.js');
 
 // JOB1: listen for error event emitted from test file
 events.on('errEvent', forwardError);
