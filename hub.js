@@ -4,7 +4,7 @@ const forwarder = require('./forwarder/forwarder')
 const indexer = require('./indexer/indexerRoot')
 
 
-class OHno {
+class ErrorHub {
   constructor(e)
   
   saveError(e) {
@@ -12,4 +12,4 @@ class OHno {
   }
 }
 
-module.exports = ohNo;
+module.exports = ErrorHub;

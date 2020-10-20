@@ -14,6 +14,7 @@ function parse(payload) {
 
 
 // This is where we manipulate the data
+
 // 1: on toParser event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
 // 2: after transforming event, emit a 'toIndexer' event and pass to indexer
 
