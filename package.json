@@ -1,0 +1,29 @@
+{
+  "name": "ohNoLogger",
+  "version": "1.0.0",
+  "description": "401 Codefellows Midterm project using Javascript",
+  "main": "events.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/401-midterm-DaveeRyanBenJon/ohNoLogger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/401-midterm-DaveeRyanBenJon/ohNoLogger/issues"
+  },
+  "homepage": "https://github.com/401-midterm-DaveeRyanBenJon/ohNoLogger#readme",
+  "devDependencies": {
+    "@prisma/cli": "^2.9.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^2.9.0"
+  }
+}
