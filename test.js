@@ -3,7 +3,7 @@
 // const errorhub = require('./hub');
 
 const events = require('./events');
-require('./forwarder/findex');
+require('./forwarder/forwarder');
 
 //we'll require in ohNo as a module
 //then run it somehow and listen to see what events it catches
@@ -29,7 +29,7 @@ function test1() {
       stack: e.stack,
       clientid: 'user defined id'
     };
-    events.emit('test', error);
+    events.emit('errEvent', error);
   }
 }
 
