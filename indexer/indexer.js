@@ -1,12 +1,12 @@
 'use strict';
 
-const events = require('../../events.js');
+const events = require('../events');
 const { PrismaClient } = require('@prisma/client')
 const prisma = new PrismaClient()
 
-events.on('toIndexer',saveIndexer);
+events.on('toIndexer', saveIndexer);
 
-async function saveIndexer(payload){
+async function saveIndexer(payload) {
   console.log('this is indexer-seg toIndexer:', payload.message);
   const event = await prisma.errevents.create({
     data: {
@@ -17,7 +17,7 @@ async function saveIndexer(payload){
       columnnumber: payload.columnnumber,
       stack: 'stack'
     }
-})
+  })
 }
 //STEP 2 INDEX/SAVE
 // this is where we save to db

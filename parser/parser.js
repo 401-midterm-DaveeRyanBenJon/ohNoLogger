@@ -1,11 +1,11 @@
 'use strict';
 
-const events = require('../../events');
-require('../indexer-segment/indexer-segment');
+const events = require('../events');
+require('../indexer/indexer.js');
 
 events.on('toParser', parse);
 
-function parse (payload){
+function parse(payload) {
   console.log('this is from parser', payload.message);
   events.emit('toIndexer', payload);
 }
