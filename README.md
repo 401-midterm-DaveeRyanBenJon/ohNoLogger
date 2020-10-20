@@ -1,6 +1,9 @@
 # ohNoLogger
 401 Codefellows Midterm project using Javascript
 
+## User Stories
+- [Requirements](./requirements.md)
+
 ## Task List
 - [Project](https://github.com/401-midterm-DaveeRyanBenJon/ohNoLogger/projects/1)
 ## UML Diagram
