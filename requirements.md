@@ -1,14 +1,33 @@
 # OhNoLogger Prep 4
 
 **As A User I Want**
+```
+Be able to store my console logs in a database
+```
 #
 **As A User I Want**
+```
+
+
+```
 #
 **As A User I Want**
+```
+
+
+```
 #
 **As A User I Want**
+```
+
+
+```
 #
 **As A User I Want**
+```
+
+
+```
 
 ## Modeling
 
