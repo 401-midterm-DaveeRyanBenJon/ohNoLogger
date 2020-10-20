@@ -1,14 +1,17 @@
 'use strict';
 
+
+//WORK
+
+//FORWARDER=======================================================
+require('../test.js');
+require('../parser/parser.js');
 const events = require('../events.js');
-require('../test');
-require('../indexer/parser-segment/parser-segment');
 
 // JOB1: listen for error event emitted from test file
 events.on('errEvent', forwardError);
 
-function forwardError(payload){
-  console.log('this is from findex', payload.message);
+function forwardError(payload) {
   events.emit('toParser', payload);
 }
 
@@ -19,9 +22,6 @@ function forwardError(payload){
 
 // the forwarder will listen to our system to detect an error
 // does minimal work like timestamp or normalize data and passes to indexer
-
-
-
 
 //WHAT THIS SHOULD FEED TO INDEX:
 
