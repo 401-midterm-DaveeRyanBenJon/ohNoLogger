@@ -13,9 +13,6 @@ test1();
 test2();
 // test3();
 
-
-
-
 function test1() {
 
   try {
@@ -31,7 +28,8 @@ function test1() {
       stack: e.stack,
       clientid: 'user defined id'
     };
-    events.emit('errEvent', error);
+    // console.log('e+++++++++++', error);
+    events.emit('errEvent', e);
   }
 }
 
