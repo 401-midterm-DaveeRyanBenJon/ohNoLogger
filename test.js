@@ -1,76 +1,46 @@
 'use strict';
 
-// const errorhub = require('./hub');
-
-const events = require('./events');
-require('./forwarder/forwarder.js');
-
-//we'll require in ohNo as a module
-//then run it somehow and listen to see what events it catches
-//it should spit the below 3 errors into our DB
+const ErrorHub = require('./hub.js');
+const errorHub = new ErrorHub();
 
 test1();
-// test2();
-// test3();
-
-// This way doesn't seem very DRY. Is there a way to use an Error class to get the same output?
-
+test2();
+test3();
 
 function test1() {
-
   try {
-    throw new ReferenceError('Hello', 'index.js', 10);
+    throw new ReferenceError('test1', 'index.js', 10);
   } catch (e) {
-    // console.log(e instanceof ReferenceError)  // true
-    let error = {
-      message: e.message,
-      name: e.name,
-      filename: e.fileName,
-      linenumber: e.lineNumber,
-      columnnumber: e.columnNumber,
-      stack: e.stack,
-      clientid: 'user defined id'
-    };
-    events.emit('errEvent', error);
+    // console.log(e instanceof ReferenceError); // true
+    // let error = {
+    //   message:e.message,
+    //   name: e.name,
+    //   fileName: e.fileName,
+    //   lineNumber: e.lineNumber,
+    //   columnNumber: e.columnNumber,
+    //   stack: e.stack,
+    //   clientid: 'user defined id'
+    // };
+    errorHub.logError(e);
   }
 }
 
-// function test2(){
-
-//   try {
-//     throw new SyntaxError('Hello', 'someFile.js', 10);
-//   } catch (e) {
-//     let error = {
-//       message:e.message,
-//       name: e.name,
-//       fileName: e.fileName,
-//       lineNumber: e.lineNumber,
-//       columnNumber: e.columnNumber,
-//       stack: e.stack,
-//       clientid: 'user defined id'
-//     };
-//     // console.log(error);
-//     errorhub.emit('error', error);
-//   }
-// }
+function test2(){
+  try {
+    throw new SyntaxError('test2', 'someFile.js', 10);
+  } catch (e) {
+    errorHub.logError(e);
+  }
+}
 
 
-
-// function test3(){
-
-//   try {
-//     throw new ReferenceError('Hello', 'index.js', 10);
-//   } catch (e) {
-//     console.log(e instanceof ReferenceError); // true
-//     let error = {
-//       message:e.message,
-//       clientid: 'user defined id'
-//     };
-//     // console.log(error);
-//     // errorhub.emit('error', error)
-//   }
-
-// }
+function test3(){
+  try {
+    throw new ReferenceError('test3', 'index.js', 10);
+  } catch (e) {
+    errorHub.logError(e);
+  }
+}
 
 
 //// EXAMPLE API CALL

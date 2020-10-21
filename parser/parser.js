@@ -5,18 +5,31 @@ require('../indexer/indexer.js');
 
 events.on('toParser', parse);
 
+//---- This is where we manipulate the data ----//
+// What do we want to do to format the data???
+
 function parse(payload) {
   console.log('this is from parser', payload.message);
+
+  let error = {
+    message: payload.message,
+    name: payload.name,
+    filename: payload.fileName,
+    linenumber: payload.lineNumber,
+    columnnumber: payload.columnNumber,
+    stack: payload.stack,
+    clientid: 'user defined id',
+
+  };
+
+  console.log('This is Error Object:', payload);
+  console.log('This is our error:', error);
+
   events.emit('toIndexer', payload);
 }
 
 
-//INDEXER=======================================================
-//STEP 1 PARSE:
 
-//1: listen for 'index' event emitted from hub file
-// 2: on index event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
-// 3: after transforming event, emit a 'save' event and pass to indexer
 
 
 
