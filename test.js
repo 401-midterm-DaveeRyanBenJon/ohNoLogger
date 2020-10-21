@@ -1,6 +1,5 @@
 'use strict';
 
-// require('./hub.js');
 const ErrorHub = require('./hub.js');
 const errorHub = new ErrorHub();
 
