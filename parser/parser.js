@@ -5,6 +5,9 @@ require('../indexer/indexer.js');
 
 events.on('toParser', parse);
 
+//---- This is where we manipulate the data ----//
+// What do we want to do to format the data???
+
 function parse(payload) {
   console.log('this is from parser', payload.message);
 
@@ -19,18 +22,13 @@ function parse(payload) {
 
   };
 
-  console.log('Payload: ', payload);
-  console.log('Parser can read error', error);
+  console.log('This is Error Object:', payload);
+  console.log('This is our error:', error);
 
   events.emit('toIndexer', payload);
 }
 
 
-
-
-// This is where we manipulate the data
-
-// 1: on toParser event, take in event payload and make any changes.  What do we want to do to format it? Add an ID?
 
 
 

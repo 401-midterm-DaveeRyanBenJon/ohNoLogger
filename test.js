@@ -10,7 +10,6 @@ test2();
 test3();
 
 function test1() {
-
   try {
     throw new ReferenceError('test1', 'index.js', 10);
   } catch (e) {
@@ -29,25 +28,20 @@ function test1() {
 }
 
 function test2(){
-
   try {
     throw new SyntaxError('test2', 'someFile.js', 10);
   } catch (e) {
     errorHub.logError(e);
   }
-
 }
 
 
-
 function test3(){
-
   try {
     throw new ReferenceError('test3', 'index.js', 10);
   } catch (e) {
     errorHub.logError(e);
   }
-
 }
 
 
