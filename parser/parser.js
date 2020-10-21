@@ -15,10 +15,12 @@ function parse(payload) {
     linenumber: payload.lineNumber,
     columnnumber: payload.columnNumber,
     stack: payload.stack,
-    clientid: 'user defined id'
+    clientid: 'user defined id',
+
   };
 
-  console.log('Parse can read', error);
+  console.log('Payload: ', payload);
+  console.log('Parser can read error', error);
 
   events.emit('toIndexer', payload);
 }

@@ -4,7 +4,7 @@ const events = require('../events');
 const { PrismaClient } = require('@prisma/client')
 const prisma = new PrismaClient()
 
-events.on('toIndexer', saveIndexer);
+// events.on('toIndexer', saveIndexer);
 
 async function saveIndexer(payload) {
   console.log('this is from indexer:', payload.message);
