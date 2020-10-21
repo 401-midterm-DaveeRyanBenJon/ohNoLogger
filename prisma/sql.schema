@@ -1,9 +1,12 @@
+DROP TABLE IF EXISTS errevents;
+
 CREATE TABLE errevents (
     id SERIAL PRIMARY KEY,
-    message varchar(255),
-    name varchar(255),
-    fileName varchar(255),
-    lineNumber varchar(255),
-    columnNumber varchar(255),
-    stack varchar(255))
-    ;
+    message varchar(1000),
+    name varchar(1000),
+    stack TEXT,
+    clientid varchar(1000),
+    userparam varchar(1000),
+    usernote varchar(1000)
+    );
+
