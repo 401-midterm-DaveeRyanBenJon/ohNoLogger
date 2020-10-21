@@ -9,4 +9,3 @@ function forwardError(payload) {
   events.emit('toParser', payload);
 }
 
-

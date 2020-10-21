@@ -7,25 +7,21 @@ const prisma = new PrismaClient()
 events.on('toIndexer', saveIndexer);
 
 async function saveIndexer(payload) {
-  console.log('this is from indexer:', payload.message);
+  console.log('Data from parser:', payload);
   const event = await prisma.errevents.create({
     data: {
       message: payload.message,
       name: payload.name,
-      filename: payload.filename,
-      linenumber: payload.linenumber,
-      columnnumber: payload.columnnumber,
-      stack: 'stack'
+      stack: payload.stack,
+      clientid: payload.clientid,
+      userparam: payload.userparam,
+      usernote: payload.usernote,
     }
   })
+  // await prisma.$disconnect();
 }
 
 
-
-//------ This is where we save to db -------/
-//1: listen for 'save' event emitted from hub file
-// 2: on save event, take in event payload and JUST CONSOLE LOG TO TEST, ONCE WORKING ==>
-// 2: on save event, take in event payload and save to our SQL database
 
 
 /***** Example from Docs ******

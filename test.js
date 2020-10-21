@@ -3,29 +3,19 @@
 const ErrorHub = require('./hub.js');
 const errorHub = new ErrorHub();
 
-test1();
-test2();
-test3();
+// test1();
+// test2();
+test3('JONNY');
 
 function test1() {
   try {
     throw new ReferenceError('test1', 'index.js', 10);
   } catch (e) {
-    // console.log(e instanceof ReferenceError); // true
-    // let error = {
-    //   message:e.message,
-    //   name: e.name,
-    //   fileName: e.fileName,
-    //   lineNumber: e.lineNumber,
-    //   columnNumber: e.columnNumber,
-    //   stack: e.stack,
-    //   clientid: 'user defined id'
-    // };
     errorHub.logError(e);
   }
 }
 
-function test2(){
+function test2() {
   try {
     throw new SyntaxError('test2', 'someFile.js', 10);
   } catch (e) {
@@ -34,11 +24,11 @@ function test2(){
 }
 
 
-function test3(){
+function test3(person) {
   try {
     throw new ReferenceError('test3', 'index.js', 10);
   } catch (e) {
-    errorHub.logError(e);
+    errorHub.logError(e, '6789', person, 'Will this note work? TRY AGAIN');
   }
 }
 

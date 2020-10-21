@@ -8,11 +8,11 @@ datasource db {
 }
 
 model errevents {
-  id           Int     @id @default(autoincrement())
-  message      String?
-  name         String?
-  filename     String?
-  linenumber   String?
-  columnnumber String?
-  stack        String?
+  id        Int     @id @default(autoincrement())
+  message   String?
+  name      String?
+  stack     String?
+  clientid  String?
+  userparam String?
+  usernote  String?
 }
