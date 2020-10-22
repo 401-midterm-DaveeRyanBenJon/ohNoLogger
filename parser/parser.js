@@ -10,6 +10,7 @@ function parse(payload) {
   let data = {
     message: payload.err.message,
     name: payload.err.name,
+    datetime: new Date().toString(),
     stack: payload.err.stack,
     clientid: payload.clientid,
     userparam: payload.userparam,

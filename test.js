@@ -3,8 +3,8 @@
 const ErrorHub = require('./hub.js');
 const errorHub = new ErrorHub();
 
-// test1();
-// test2();
+test1();
+test2();
 test3('JONNY');
 
 function test1() {

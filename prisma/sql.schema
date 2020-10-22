@@ -4,6 +4,7 @@ CREATE TABLE errevents (
     id SERIAL PRIMARY KEY,
     message varchar(1000),
     name varchar(1000),
+    datetime varchar(1000),
     stack TEXT,
     clientid varchar(1000),
     userparam varchar(1000),

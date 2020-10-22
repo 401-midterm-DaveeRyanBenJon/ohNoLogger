@@ -7,18 +7,11 @@ const prisma = new PrismaClient()
 events.on('toIndexer', saveIndexer);
 
 async function saveIndexer(payload) {
-  console.log('Data from parser:', payload);
+  console.log('PAYLOAD from parser:', payload);
   const event = await prisma.errevents.create({
-    data: {
-      message: payload.message,
-      name: payload.name,
-      stack: payload.stack,
-      clientid: payload.clientid,
-      userparam: payload.userparam,
-      usernote: payload.usernote,
-    }
+    data: payload,
   })
-  // await prisma.$disconnect();
+  await prisma.$disconnect();
 }
 
 

@@ -11,6 +11,7 @@ model errevents {
   id        Int     @id @default(autoincrement())
   message   String?
   name      String?
+  datetime  String?
   stack     String?
   clientid  String?
   userparam String?
