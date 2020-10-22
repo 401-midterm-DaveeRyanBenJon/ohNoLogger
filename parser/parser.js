@@ -9,7 +9,7 @@ function parse(payload) {
 
   let data = {
     datetime: new Date(),
-    userid: payload.clientid,
+    userid: payload.userid,
     errortype: payload.err.name,
     errormessage: payload.err.message,
     stack: payload.err.stack,

@@ -6,10 +6,10 @@ const forwarder = require('./forwarder/forwarder');
 
 class ErrorHub {
 
-  logError(e, clientid = null, userparam = null, usernote = null) {
+  logError(e, userid = null, userparam = null, usernote = null) {
     let payload = {
       err: e,
-      clientid: clientid,
+      userid: userid,
       userparam: userparam,
       usernote: usernote,
     };
