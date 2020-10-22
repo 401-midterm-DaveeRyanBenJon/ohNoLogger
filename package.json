@@ -24,6 +24,7 @@
     "@prisma/cli": "^2.9.0"
   },
   "dependencies": {
-    "@prisma/client": "^2.9.0"
+    "@prisma/client": "^2.9.0",
+    "yargs": "^16.1.0"
   }
 }
