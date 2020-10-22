@@ -8,12 +8,12 @@ datasource db {
 }
 
 model errevents {
-  id        Int       @id @default(autoincrement())
-  message   String?
-  name      String?
-  datetime  DateTime?
-  stack     String?
-  clientid  String?
-  userparam String?
-  usernote  String?
+  id           Int       @id @default(autoincrement())
+  datetime     DateTime?
+  userid       String?
+  errortype    String?
+  errormessage String?
+  stack        String?
+  userparam    String?
+  usernote     String?
 }
