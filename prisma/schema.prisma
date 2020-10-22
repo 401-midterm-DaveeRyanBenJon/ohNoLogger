@@ -8,9 +8,10 @@ datasource db {
 }
 
 model errevents {
-  id        Int     @id @default(autoincrement())
+  id        Int       @id @default(autoincrement())
   message   String?
   name      String?
+  datetime  DateTime?
   stack     String?
   clientid  String?
   userparam String?
