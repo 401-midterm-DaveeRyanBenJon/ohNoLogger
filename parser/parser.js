@@ -8,11 +8,11 @@ events.on('toParser', parse);
 function parse(payload) {
 
   let data = {
-    message: payload.err.message,
-    name: payload.err.name,
     datetime: new Date(),
+    userid: payload.clientid,
+    errortype: payload.err.name,
+    errormessage: payload.err.message,
     stack: payload.err.stack,
-    clientid: payload.clientid,
     userparam: payload.userparam,
     usernote: payload.usernote,
   };
