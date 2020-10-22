@@ -18,7 +18,7 @@ yargs.command({
 ///////////   List all Errors by User
 yargs.command({
   command: 'listByUser',
-  describe: 'Get a list of all errors based on the users ID. Please enter userID',
+  describe: 'Get a list of all errors based on the users ID. In the terminal enter: `--userID=A_USER_ID`',
   builder: {
     userID: {
       describe: 'Programmer\'s ID',
@@ -44,7 +44,7 @@ yargs.command({
     }
   },
   handler(argv){
-    searchHead.getByUserId(argv.date);
+    searchHead.getbyDate(argv.date);
   }
 });
 
