@@ -1,12 +1,14 @@
 {
-  "name": "ohNoLogger",
+  "name": "errorproject",
   "version": "1.0.0",
   "description": "401 Codefellows Midterm project using Javascript",
-  "main": "events.js",
+  "main": "hub.js",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
+    "preinstall": "node config.js",
+    "postinstall": "rm ./prisma/.env && ln -s ./.env ./prisma/.env && npx prisma introspect && npx prisma generate",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,8 +27,11 @@
   },
   "dependencies": {
     "@prisma/client": "^2.9.0",
+    "@prisma/cli": "^2.9.0",
     "chalk": "^4.1.0",
     "uuid": "^8.3.1",
-    "yargs": "^16.1.0"
+    "yargs": "^16.1.0", 
+    "pg": "^8.4.1",
+    "inquirer": "^7.3.3"
   }
 }
