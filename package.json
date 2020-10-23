@@ -26,12 +26,13 @@
     "@prisma/cli": "^2.9.0"
   },
   "dependencies": {
-    "@prisma/client": "^2.9.0",
     "@prisma/cli": "^2.9.0",
+    "@prisma/client": "^2.9.0",
     "chalk": "^4.1.0",
-    "uuid": "^8.3.1",
-    "yargs": "^16.1.0", 
+    "inquirer": "^7.3.3",
+    "jsdoc": "^3.6.6",
     "pg": "^8.4.1",
-    "inquirer": "^7.3.3"
+    "uuid": "^8.3.1",
+    "yargs": "^16.1.0"
   }
 }
