@@ -25,12 +25,6 @@ class SearchHead {
           errors.forEach(err => {
           console.log(chalk.blue('=================================  ERROR RECORD  ================================='));
           console.log(err);
-          // console.log('RECORD_ID:', err.id);
-          // console.log('USERID:', err.userid);
-          // console.log('DATE_TIME:', err.datetime);
-          // console.log('ERRORTYPE:', err.errortype);
-          // console.log('ERROR_MESSAGE:', err.errormessage);
-          // console.log('STACK:', err.stack);
           console.log(chalk.blue('=================================================================================='));
       })
     }

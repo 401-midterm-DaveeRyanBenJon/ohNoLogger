@@ -6,7 +6,7 @@ const searchHead = require('./search_head/search_head.js');
 yargs.version('1.1.0');
 
 
-////// List errors by user Id or date
+//////   getRecord
 yargs.command({
   command: 'getRecord',
   describe: 'Get records based on a userid, datetime, errortype, userparam',
@@ -42,7 +42,7 @@ yargs.command({
 });
 
 
-///////////    Delete Errors by ID
+///////////    delete
 yargs.command({
   command: 'delete',
   describe: 'Delete a record based on the id',
