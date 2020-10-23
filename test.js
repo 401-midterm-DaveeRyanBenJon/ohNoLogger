@@ -13,7 +13,7 @@ function test1(param) {
     let num = 123;
     return num.toUpperCase();
   } catch (e) {
-    errorHub.logError(e, 'ben1243', '', 'This is ben1243s note');
+    errorHub.logError(e, 'ryan987', '', 'This is ben1243s note');
   }
 }
 
@@ -30,7 +30,7 @@ function test3(person) {
   try {
     throw new ReferenceError('test3', 'index.js', 10);
   } catch (e) {
-    errorHub.logError(e, '6789', person, 'Will this note work? TRY AGAIN');
+    errorHub.logError(e, 'ben6789', person, 'Will this note work? TRY AGAIN');
   }
 }
 

@@ -19,7 +19,7 @@ yargs.command({
     date_time: {
       describe: 'Enter specific date',
       demandOption: false,
-      type: 'string'
+      type: 'DateTime'
     },
     error_type: {
       describe: 'Enter Error Type',
