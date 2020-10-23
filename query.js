@@ -52,17 +52,17 @@ yargs.command({
 ///////////    Delete Errors by ID
 yargs.command({
   command: 'delete',
-  describe: 'Get a list of all errors based on the date. Please enter date',
+  describe: 'Delete a record based on the id',
   builder: {
-    id: {
-      describe: 'id',
+    recordID: {
+      describe: 'recordID',
       demandOption: true,
       type: 'Int'
     }
   },
   handler(argv) {
-    searchHead.delete(argv.id);
-    console.log('This is argv.errorID:', argv.id);
+    searchHead.delete(argv.recordID);
+    console.log('This is argv.recordID:', argv.recordID);
   }
 });
 

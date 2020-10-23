@@ -11,7 +11,7 @@ class SearchHead {
       const errors = await prisma.errevents.findMany();
       errors.forEach(err => {
         console.log(chalk.green('=================================   ERROR  =================================='));
-        console.log('ERROR-ID:', err.id);
+        console.log('RECORD-ID:', err.id);
         console.log('USER-ID:', err.userid);
         console.log('DATE-TIME:', err.datetime);
         console.log('ERROR-TYPE:', err.errortype);
@@ -37,13 +37,14 @@ class SearchHead {
     console.log('getbyDate is called with', date);
   }
 
-  async delete(id) {
+  async delete(recordID) {
     try {
       const deleted = await prisma.errevents.delete({
-        where: { id: id },
+        where: { id: recordID },
       });
-      console.log('This is what comes back for deleted: ', deleted);
-      console.log('This ERROR was deleted:', id);
+      console.log(chalk.green('======================== DELETED RECORD ========================'))
+      console.log(deleted);
+      console.log(chalk.green('================================================================'))
     } catch (e) {
       console.log('Something went wrong when deleting from database:', e);
     } finally {
