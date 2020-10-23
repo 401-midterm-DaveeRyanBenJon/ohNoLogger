@@ -42,6 +42,29 @@ yargs.command({
 });
 
 
+///////////    update
+yargs.command({
+  command: 'update',
+  describe: 'Update usernote based on the record id',
+  builder: {
+    id: {
+      describe: 'id',
+      demandOption: true,
+      type: 'Int'
+    },
+    usernote: {
+      describe: 'usernote',
+      demandOption: true,
+      type: 'string'
+    }
+  },
+  handler(argv) {
+    searchHead.update(argv.id, argv.usernote);
+  }
+});
+
+
+
 ///////////    delete
 yargs.command({
   command: 'delete',
