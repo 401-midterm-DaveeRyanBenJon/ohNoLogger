@@ -8,7 +8,7 @@ yargs.version('1.1.0');
 ///////////   List all Errors
 yargs.command({
   command: 'list',
-  describe: 'Get a List of all errors',
+  describe: 'Get a List of All Errors',
   handler() {
     searchHead.getAll();
   }
@@ -26,7 +26,7 @@ yargs.command({
       type: 'string'
     }
   },
-  handler(argv){
+  handler(argv) {
     searchHead.getByUserId(argv.userID);
   }
 });
@@ -43,8 +43,8 @@ yargs.command({
       type: 'string'
     }
   },
-  handler(argv){
-    searchHead.getbyDate(argv.date);
+  handler(argv) {
+    searchHead.getByDate(argv.date);
   }
 });
 
@@ -54,14 +54,15 @@ yargs.command({
   command: 'delete',
   describe: 'Get a list of all errors based on the date. Please enter date',
   builder: {
-    errorID: {
-      describe: 'errorID',
+    id: {
+      describe: 'id',
       demandOption: true,
-      type: 'string'
+      type: 'Int'
     }
   },
-  handler(argv){
-    searchHead.delete(argv.errorID);
+  handler(argv) {
+    searchHead.delete(argv.id);
+    console.log('This is argv.errorID:', argv.id);
   }
 });
 

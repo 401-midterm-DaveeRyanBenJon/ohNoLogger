@@ -2,6 +2,7 @@ DROP TABLE IF EXISTS errevents;
 
 CREATE TABLE errevents (
     id SERIAL PRIMARY KEY,
+    errorid varchar(1000),
     datetime timestamptz,
     userid varchar(1000),
     errortype varchar(1000),

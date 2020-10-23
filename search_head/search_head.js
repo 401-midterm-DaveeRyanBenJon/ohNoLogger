@@ -1,10 +1,29 @@
 'use strict';
 
+const chalk = require('chalk');
+const { PrismaClient } = require('@prisma/client')
+const prisma = new PrismaClient()
+
 class SearchHead {
 
-  getAll(){
-    // will need to grab everything from database
-    console.log('Get all is called');
+  async getAll() {
+    try {
+      const errors = await prisma.errevents.findMany();
+      errors.forEach(err => {
+        console.log(chalk.green('=================================   ERROR  =================================='));
+        console.log('ERROR-ID:', err.id);
+        console.log('USER-ID:', err.userid);
+        console.log('DATE-TIME:', err.datetime);
+        console.log('ERROR-TYPE:', err.errortype);
+        console.log('ERROR-MESSAGE:', err.errormessage);
+        console.log('STACK:', err.stack);
+        console.log(chalk.green('============================================================================='));
+      })
+    } catch (e) {
+      console.log('Something went wrong when gettingALL from database:', e);
+    } finally {
+      await prisma.$disconnect();
+    }
   }
 
   getByUserId(id) {
@@ -13,16 +32,24 @@ class SearchHead {
     console.log('GetByUserId is called with ', id);
   }
 
-  getbyDate(date) {
+  getByDate(date) {
 
     console.log('getbyDate is called with', date);
   }
 
-  delete(errorID) {
-    // will need to delete error by id
-    console.log('delete is called with', errorID);
+  async delete(id) {
+    try {
+      const deleted = await prisma.errevents.delete({
+        where: { id: id },
+      });
+      console.log('This is what comes back for deleted: ', deleted);
+      console.log('This ERROR was deleted:', id);
+    } catch (e) {
+      console.log('Something went wrong when deleting from database:', e);
+    } finally {
+      await prisma.$disconnect();
+    }
   }
-
 }
 
 module.exports = new SearchHead();
