@@ -3,15 +3,17 @@
 const ErrorHub = require('./hub.js');
 const errorHub = new ErrorHub();
 
-// test1();
+test1();
 // test2();
-test3('JONNY');
+// test3('JONNY');
 
 function test1() {
   try {
-    throw new ReferenceError('test1', 'index.js', 10);
+    // throw new ReferenceError('test1', 'index.js', 10);
+    let num = 123;
+    return num.toUpperCase();
   } catch (e) {
-    errorHub.logError(e);
+    errorHub.logError(e, 'ben1243', '', 'This is ben1243s note');
   }
 }
 
