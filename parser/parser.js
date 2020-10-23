@@ -18,6 +18,5 @@ function parse(payload) {
     userparam: payload.userparam,
     usernote: payload.usernote,
   };
-  console.log('typeof errorid', typeof data.errorid);
   events.emit('toIndexer', data);
 }

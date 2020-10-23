@@ -3,11 +3,11 @@
 const ErrorHub = require('./hub.js');
 const errorHub = new ErrorHub();
 
-test1();
-test2();
+test1('testParam1');
+test2('testParam2');
 test3('JONNY');
 
-function test1() {
+function test1(param) {
   try {
     // throw new ReferenceError('test1', 'index.js', 10);
     let num = 123;
@@ -17,11 +17,11 @@ function test1() {
   }
 }
 
-function test2() {
+function test2(param) {
   try {
     throw new SyntaxError('test2', 'someFile.js', 10);
   } catch (e) {
-    errorHub.logError(e);
+    errorHub.logError(e, 'davee1234', param, 'this is notes from test 2 function');
   }
 }
 
