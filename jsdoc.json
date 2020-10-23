@@ -13,6 +13,6 @@
         "recurse": true,
         "destination": "./jsdocs/",
         "template": "custom-template",
-        "tutorials": "./tutorials"
+        "tutorials": "./jsdocs/tutorials"
     }
 }
