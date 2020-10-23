@@ -18,40 +18,59 @@ class SearchHead {
         where: queryObj,
       });
       if(!errors.length) {
-        console.log(chalk.red('=================================  ERROR RECORD  ================================='));
+        console.log(chalk.red('====================================  ERROR  ====================================='));
         console.log('NOTHING RETURNED FROM DATABASE. TRY USING LESS FILTERS OR CHECK YOUR SPELLING');
+        console.log(e)
         console.log(chalk.red('=================================================================================='));
       } else {
           errors.forEach(err => {
           console.log(chalk.blue('=================================  ERROR RECORD  ================================='));
           console.log(err);
-          // console.log('RECORD_ID:', err.id);
-          // console.log('USERID:', err.userid);
-          // console.log('DATE_TIME:', err.datetime);
-          // console.log('ERRORTYPE:', err.errortype);
-          // console.log('ERROR_MESSAGE:', err.errormessage);
-          // console.log('STACK:', err.stack);
           console.log(chalk.blue('=================================================================================='));
       })
     }
     } catch (e) {
+      console.log(chalk.red('=================================================================================='));
       console.log('Something went wrong getting data:', e);
+      console.log(chalk.red('=================================================================================='));
     } finally {
       await prisma.$disconnect();
     }
   }
 
 
-  async delete(record_id) {
+  async update(id, usernote) {
+    try {
+      const updated = await prisma.errevents.update({
+        where: { id: id },
+        data: {usernote: usernote}
+      });
+      console.log(chalk.blue('===============================  UPDATED RECORD  ==============================='))
+      console.log(updated);
+      console.log(chalk.blue('================================================================================'))
+    } catch (e) {
+      console.log(chalk.red('=================================================================================='));
+      console.log('Something went wrong when updating from database:',e);
+      console.log(chalk.red('=================================================================================='));
+    } finally {
+      await prisma.$disconnect();
+    }
+  }
+
+
+  async delete(id) {
     try {
       const deleted = await prisma.errevents.delete({
-        where: { id: record_id },
+        where: { id: id },
       });
       console.log(chalk.red('===============================  DELETED RECORD  ==============================='))
       console.log(deleted);
       console.log(chalk.red('================================================================================'))
     } catch (e) {
-      console.log('Something went wrong when deleting from database:', e);
+      console.log(chalk.red('=================================================================================='));
+      console.log('Something went wrong when deleting from database:');
+      console.log(e);
+      console.log(chalk.red('=================================================================================='));
     } finally {
       await prisma.$disconnect();
     }

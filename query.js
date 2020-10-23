@@ -6,7 +6,7 @@ const searchHead = require('./search_head/search_head.js');
 yargs.version('1.1.0');
 
 
-////// List errors by user Id or date
+//////   getRecord
 yargs.command({
   command: 'getRecord',
   describe: 'Get records based on a userid, datetime, errortype, userparam',
@@ -42,7 +42,30 @@ yargs.command({
 });
 
 
-///////////    Delete Errors by ID
+///////////    update
+yargs.command({
+  command: 'update',
+  describe: 'Update usernote based on the record id',
+  builder: {
+    id: {
+      describe: 'id',
+      demandOption: true,
+      type: 'Int'
+    },
+    usernote: {
+      describe: 'usernote',
+      demandOption: true,
+      type: 'string'
+    }
+  },
+  handler(argv) {
+    searchHead.update(argv.id, argv.usernote);
+  }
+});
+
+
+
+///////////    delete
 yargs.command({
   command: 'delete',
   describe: 'Delete a record based on the id',
