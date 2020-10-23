@@ -47,3 +47,49 @@ The required data type
 Indication if the column is a key (Example: Primary Key, Foreign Key, Composite Key)
 ```
 - [Diagram UML](./assets/databaseuml.md) 
+
+
+### npm
+```
+npm init
+name it
+create an index.js
+create function export.printmsg = funtion(){
+    console.log('test package')
+}
+npm publish
+npm install 
+
+
+```
+## update npm package
+```
+npm publish will update
+run npm uninstall 
+run npm i 
+
+
+```
+
+function userLogin(name){
+  let  USERNAME = `${name}`
+    return USERNAME
+}
+module.exports = userLogin;
+
+proccess.env.USERNAME
+
+one file for name
+one file for password
+user would have to npm run name -- name
+then npm run password -- password
+both files would have to be exported so that env could hear the variables
+comman line args type -- password 
+fs
+
+export PRISM_USERNAME=“your_user_name” PRISM_PASSWORD=“your_password”
+
+
+process.env.PRISM_PASSWORD
+“after installing, please run export PRISM_USERNAME=“your_user_name” PRISM_PASSWORD=“your_password”\
+DATABASE_URL=“postgresql://`${process.env.PRISM_USERNAME}:${process.env.PRISM_PASSWORD}@localhost:5432/blahblablah
