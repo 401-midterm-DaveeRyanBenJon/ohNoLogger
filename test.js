@@ -3,25 +3,25 @@
 const ErrorHub = require('./hub.js');
 const errorHub = new ErrorHub();
 
-test1();
-// test2();
-// test3('JONNY');
+test1('testParam1');
+test2('testParam2');
+test3('JONNY');
 
-function test1() {
+function test1(param) {
   try {
     // throw new ReferenceError('test1', 'index.js', 10);
     let num = 123;
     return num.toUpperCase();
   } catch (e) {
-    errorHub.logError(e, 'ben1243', '', 'This is ben1243s note');
+    errorHub.logError(e, 'ryan987', '', 'This is ben1243s note');
   }
 }
 
-function test2() {
+function test2(param) {
   try {
     throw new SyntaxError('test2', 'someFile.js', 10);
   } catch (e) {
-    errorHub.logError(e);
+    errorHub.logError(e, 'davee1234', param, 'this is notes from test 2 function');
   }
 }
 
@@ -30,7 +30,7 @@ function test3(person) {
   try {
     throw new ReferenceError('test3', 'index.js', 10);
   } catch (e) {
-    errorHub.logError(e, '6789', person, 'Will this note work? TRY AGAIN');
+    errorHub.logError(e, 'ben6789', person, 'Will this note work? TRY AGAIN');
   }
 }
 

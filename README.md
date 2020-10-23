@@ -61,3 +61,33 @@ Add to Heroku online, add this command to terminal:
 ## Objectives
 
 - [ ] node.js documentation => access build in api methods
+
+
+## Explanation of Config Steps
+
+https://notathoughtexperiment.me/blog/how-to-do-create-database-dbname-if-not-exists-in-postgres-in-golang/
+
+https://docs.npmjs.com/misc/scripts
+
+//get the users db URI and CLIENT ID
+
+//do this with an inquirer function??
+
+//use that db URI to set up a table called errtable
+
+//maybe?? use fs to create .env in prisma folder
+
+//TODO maybe?? symlink .env in prisma folder
+
+
+//TODO write symlink from internal.env to prisma .env
+
+//TODO after above script, run eblow commands in script in package json
+
+//POST INSTALL COMMNADS
+//TODO then run prisma introspect
+//TODO then run prisma generate
+
+    ```"postinstall": "rm ./prisma/.env && ln -s ./.env ./prisma/.env && npx prisma introspect && npx prisma generate",```
+
+post install remove prisma .env file, sym link to .env in node modules, then run prisma intro and generate steps
