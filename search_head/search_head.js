@@ -63,7 +63,7 @@ class SearchHead {
       console.log(chalk.red('================================================================================'))
     } catch (e) {
       console.log('Something went wrong when deleting from database:');
-      console.log(e.meta.details);
+      console.log(e);
     } finally {
       await prisma.$disconnect();
     }

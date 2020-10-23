@@ -98,12 +98,13 @@ try{
 
     const SQL = `CREATE TABLE ${table} (
       id SERIAL PRIMARY KEY,
-      message varchar(255),
-      name varchar(255),
-      fileName varchar(255),
-      lineNumber varchar(255),
-      columnNumber varchar(255),
-      stack varchar(255))
+      datetime timestamptz,
+      userid varchar(1000),
+      errortype varchar(1000),
+      errormessage varchar(1000),
+      userparam varchar(1000),
+      usernote varchar(1000),
+      stack TEXT)
       ;`
 
     await client.query(SQL);
