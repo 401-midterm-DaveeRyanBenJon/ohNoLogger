@@ -9,35 +9,35 @@ yargs.version('1.1.0');
 ////// List errors by user Id or date
 yargs.command({
   command: 'getRecord',
-  describe: 'Get records based on a userID and/or date',
+  describe: 'Get records based on a userid, datetime, errortype, userparam',
   builder: {
-    user_id: {
-      describe: 'Programmer\'s ID',
+    userid: {
+      describe: 'Programmer\'s user ID',
       demandOption: false,
       type: 'string'
     },
-    date_time: {
+    datetime: {
       describe: 'Enter specific date',
       demandOption: false,
       type: 'DateTime'
     },
-    error_type: {
-      describe: 'Enter Error Type',
+    errortype: {
+      describe: 'Enter Error Type. ex ReferenceError, TypeError, SyntaxError',
       demandOption: false,
       type: 'string'
     },
-    user_param: {
-      describe: 'Enter tested params',
+    userparam: {
+      describe: 'Enter param that threw the error',
       demandOption: false,
       type: 'string'
     }
   },
   handler(argv) {
-    let user_id = argv.user_id || null;
-    let date_time = argv.date_time || null;
-    let error_type = argv.error_type || null;
-    let user_param = argv.user_param || null;
-    searchHead.getRecord(user_id, date_time, error_type, user_param);
+    let userid = argv.userid || null;
+    let datetime = argv.datetime || null;
+    let errortype = argv.errortype || null;
+    let userparam = argv.userparam || null;
+    searchHead.getRecord(userid, datetime, errortype, userparam);
   }
 });
 
@@ -47,15 +47,14 @@ yargs.command({
   command: 'delete',
   describe: 'Delete a record based on the id',
   builder: {
-    record_id: {
-      describe: 'record_id',
+    id: {
+      describe: 'id',
       demandOption: true,
       type: 'Int'
     }
   },
   handler(argv) {
-    searchHead.delete(argv.record_id);
-    console.log('This is argv.record_id:', argv.record_id);
+    searchHead.delete(argv.id);
   }
 });
 

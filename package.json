@@ -2,7 +2,7 @@
   "name": "ohNoLogger",
   "version": "1.0.0",
   "description": "401 Codefellows Midterm project using Javascript",
-  "main": "events.js",
+  "main": "hub.js",
   "directories": {
     "doc": "docs"
   },
