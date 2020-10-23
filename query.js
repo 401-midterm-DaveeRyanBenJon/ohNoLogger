@@ -5,46 +5,27 @@ const searchHead = require('./search_head/search_head.js');
 
 yargs.version('1.1.0');
 
-///////////   List all Errors
-yargs.command({
-  command: 'list',
-  describe: 'Get a List of All Errors',
-  handler() {
-    searchHead.getAll();
-  }
-});
 
-
-///////////   List all Errors by User
+////// List errors by user Id or date
 yargs.command({
-  command: 'listByUser',
-  describe: 'Get a list of all errors based on the users ID. In the terminal enter: `--userID=A_USER_ID`',
+  command: 'getRecord',
+  describe: 'Get records based on a userID and/or date',
   builder: {
     userID: {
       describe: 'Programmer\'s ID',
-      demandOption: true,
+      demandOption: false,
       type: 'string'
-    }
-  },
-  handler(argv) {
-    searchHead.getByUserId(argv.userID);
-  }
-});
-
-
-///////////   List all Errors by Date
-yargs.command({
-  command: 'listbyDate',
-  describe: 'Get a list of all errors based on the date. Please enter date',
-  builder: {
+    },
     date: {
-      describe: 'date',
-      demandOption: true,
+      describe: 'Enter specific date',
+      demandOption: false,
       type: 'string'
     }
   },
   handler(argv) {
-    searchHead.getByDate(argv.date);
+    let userID = argv.userID || null;
+    let date = argv.date || null;
+    searchHead.getRecord(userID, date);
   }
 });
 
