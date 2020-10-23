@@ -18,8 +18,9 @@ class SearchHead {
         where: queryObj,
       });
       if(!errors.length) {
-        console.log(chalk.red('=================================  ERROR RECORD  ================================='));
+        console.log(chalk.red('====================================  ERROR  ====================================='));
         console.log('NOTHING RETURNED FROM DATABASE. TRY USING LESS FILTERS OR CHECK YOUR SPELLING');
+        console.log(e)
         console.log(chalk.red('=================================================================================='));
       } else {
           errors.forEach(err => {
@@ -29,7 +30,9 @@ class SearchHead {
       })
     }
     } catch (e) {
+      console.log(chalk.red('=================================================================================='));
       console.log('Something went wrong getting data:', e);
+      console.log(chalk.red('=================================================================================='));
     } finally {
       await prisma.$disconnect();
     }
@@ -46,7 +49,9 @@ class SearchHead {
       console.log(updated);
       console.log(chalk.blue('================================================================================'))
     } catch (e) {
+      console.log(chalk.red('=================================================================================='));
       console.log('Something went wrong when updating from database:',e);
+      console.log(chalk.red('=================================================================================='));
     } finally {
       await prisma.$disconnect();
     }
@@ -62,8 +67,10 @@ class SearchHead {
       console.log(deleted);
       console.log(chalk.red('================================================================================'))
     } catch (e) {
+      console.log(chalk.red('=================================================================================='));
       console.log('Something went wrong when deleting from database:');
       console.log(e);
+      console.log(chalk.red('=================================================================================='));
     } finally {
       await prisma.$disconnect();
     }
