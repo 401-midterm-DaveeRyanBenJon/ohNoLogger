@@ -16,10 +16,9 @@ yargs.command({
       demandOption: false,
       type: 'string'
     },
-    datetime: {
+    date: {
       describe: 'Enter specific date',
       demandOption: false,
-      type: 'timestamptz'
     },
     errortype: {
       describe: 'Enter Error Type. ex ReferenceError, TypeError, SyntaxError',
@@ -33,11 +32,13 @@ yargs.command({
     }
   },
   handler(argv) {
+
     let userid = argv.userid || null;
-    let datetime = argv.datetime || null;
+    let date = null;
+    if (argv.date) { date = new Date(argv.date);}
     let errortype = argv.errortype || null;
     let userparam = argv.userparam || null;
-    searchHead.getRecord(userid, datetime, errortype, userparam);
+    searchHead.getRecord(userid, date, errortype, userparam);
   }
 });
 

@@ -7,20 +7,22 @@ const prisma = new PrismaClient()
 class SearchHead {
 
 
-  async getRecord(userid, datetime, errortype, userparam) {
+  async getRecord(userid, date, errortype, userparam) {
     try {
       let queryObj = {};
       if(userid !== null) {queryObj.userid = userid};
-      if(datetime !== null) {queryObj.datetime = datetime};
+      if(date !== null) {
+        queryObj.date = {equals: date}
+      };
       if(errortype !== null) {queryObj.errortype = errortype};
       if(userparam !== null) {queryObj.userparam = userparam};
+      console.log('queryObj', queryObj);
       const errors = await prisma.errevents.findMany({
         where: queryObj,
       });
       if(!errors.length) {
         console.log(chalk.red('====================================  ERROR  ====================================='));
         console.log('NOTHING RETURNED FROM DATABASE. TRY USING LESS FILTERS OR CHECK YOUR SPELLING');
-        console.log(e)
         console.log(chalk.red('=================================================================================='));
       } else {
           errors.forEach(err => {

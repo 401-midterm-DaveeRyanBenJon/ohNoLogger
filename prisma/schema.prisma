@@ -9,7 +9,7 @@ datasource db {
 
 model errevents {
   id           Int       @id @default(autoincrement())
-  datetime     DateTime?
+  date         DateTime?
   userid       String?
   errortype    String?
   errormessage String?
