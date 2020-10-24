@@ -21,7 +21,7 @@ yargs.command({
       type: 'string'
     },
     date: {
-      describe: 'Enter specific date',
+      describe: 'Use date with month, day, and year',
       demandOption: false,
     },
     errortype: {
