@@ -32,7 +32,6 @@ yargs.command({
     }
   },
   handler(argv) {
-
     let userid = argv.userid || null;
     let date = null;
     if (argv.date) { date = new Date(argv.date);}

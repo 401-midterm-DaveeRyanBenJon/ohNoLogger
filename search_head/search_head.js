@@ -17,20 +17,22 @@ class SearchHead {
       if(errortype !== null) {queryObj.errortype = errortype};
       if(userparam !== null) {queryObj.userparam = userparam};
       console.log('queryObj', queryObj);
+
       const errors = await prisma.errevents.findMany({
         where: queryObj,
       });
+
       if(!errors.length) {
         console.log(chalk.red('====================================  ERROR  ====================================='));
         console.log('NOTHING RETURNED FROM DATABASE. TRY USING LESS FILTERS OR CHECK YOUR SPELLING');
         console.log(chalk.red('=================================================================================='));
       } else {
-          errors.forEach(err => {
+        errors.forEach(record => {
           console.log(chalk.blue('=================================  ERROR RECORD  ================================='));
-          console.log(err);
+          console.log(record);
           console.log(chalk.blue('=================================================================================='));
-      })
-    }
+        })
+      }
     } catch (e) {
       console.log(chalk.red('=================================================================================='));
       console.log('Something went wrong getting data:', e);
@@ -70,8 +72,7 @@ class SearchHead {
       console.log(chalk.red('================================================================================'))
     } catch (e) {
       console.log(chalk.red('=================================================================================='));
-      console.log('Something went wrong when deleting from database:');
-      console.log(e);
+      console.log('Something went wrong when deleting from database:', e);
       console.log(chalk.red('=================================================================================='));
     } finally {
       await prisma.$disconnect();
