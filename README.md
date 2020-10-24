@@ -2,6 +2,9 @@
 
 401 Codefellows Midterm project using Javascript
 
+## User Stories
+- [Requirements](./requirements.md)
+
 ## Task List
 
 - [Project](https://github.com/401-midterm-DaveeRyanBenJon/ohNoLogger/projects/1)
@@ -27,7 +30,11 @@
 - const { PrismaClient } = require('@prisma/client') >>> require this in your
 - const prisma = new PrismaClient() >>> require this in your file
 ```
-
+### List of CLI commands:- 
+**_node query.js getRecord:_** 
+```
+Shows you a list of errors stored in your database
+```
 +++++++++++++++++= PSQL Database +++++++++++++++++++++
 
 ### In Terminal Create Database:

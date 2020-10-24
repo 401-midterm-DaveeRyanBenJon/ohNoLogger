@@ -9,7 +9,7 @@ events.on('toParser', parse);
 function parse(payload) {
 
   let data = {
-    datetime: new Date(),
+    date: new Date(),
     userid: payload.userid,
     errortype: payload.err.name,
     errormessage: payload.err.message,

@@ -2,12 +2,12 @@ DROP TABLE IF EXISTS errevents;
 
 CREATE TABLE errevents (
     id SERIAL PRIMARY KEY,
-    datetime timestamptz,
-    userid varchar(1000),
-    errortype varchar(1000),
-    errormessage varchar(1000),
-    userparam varchar(1000),
-    usernote varchar(1000),
+    date DATE,
+    userid VARCHAR(1000),
+    errortype VARCHAR(1000),
+    errormessage VARCHAR(1000),
+    userparam VARCHAR(1000),
+    usernote VARCHAR(1000),
     stack TEXT
     );
 

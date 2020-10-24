@@ -10,7 +10,7 @@ events.on('toIndexer', saveIndexer);
 async function saveIndexer(payload) {
   try {
     const event = await prisma.errevents.create({ data: payload })
-    console.log('An Error was added to ErrorHub:', payload.datetime.toString());
+    console.log('An Error was added to ErrorHub:', payload.date.toString());
     console.log(chalk.red('-----------------------------------------------------------------------------------------'));
   } catch (e) {
     console.log('Something wrong happened in indexer:', e);
