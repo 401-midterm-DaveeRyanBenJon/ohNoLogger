@@ -6,32 +6,60 @@ const prisma = new PrismaClient()
 
 class SearchHead {
 
-
-  async getRecord(userid, datetime, errortype, userparam) {
+  async getRecord(argv) {
     try {
+
+      const valid = {
+        id: 'id',
+        userid: 'userid',
+        errortype: 'errortype',
+        userparam: 'userparam'
+      }
+      
       let queryObj = {};
-      if(userid !== null) {queryObj.userid = userid};
-      if(datetime !== null) {queryObj.datetime = datetime};
-      if(errortype !== null) {queryObj.errortype = errortype};
-      if(userparam !== null) {queryObj.userparam = userparam};
-      const errors = await prisma.errevents.findMany({
+
+      Object.keys(argv).forEach(key => {
+        if(valid[key]) {
+          queryObj[key] = argv[key];
+        } else if(key === 'date') {
+          queryObj.date = {equals: new Date(argv.date)}
+        } else if (key !== '$0' && key !== '_') {
+          //  DO NOT FIX THE INDENTATION OR SPACING FOR THIS ERROR
+          //  IT WILL AFFECT THE WAY IT SHOWS IN THE TERMINAL
+          throw new Error(`
+${chalk.red(key)} IS NOT A VALID TAG
+
+Only the following tags are allowed:
+  --id
+  --userid
+  --date
+  --errortype
+  --userparam
+`)
+        }
+      })
+
+      const records = await prisma.errevents.findMany({
         where: queryObj,
       });
-      if(!errors.length) {
-        console.log(chalk.red('====================================  ERROR  ====================================='));
-        console.log('NOTHING RETURNED FROM DATABASE. TRY USING LESS FILTERS OR CHECK YOUR SPELLING');
-        console.log(e)
+
+      if(!records.length) {
+        console.log('')
         console.log(chalk.red('=================================================================================='));
+        console.log('NOTHING RETURNED FROM DATABASE. TRY USING LESS FILTERS OR CHECK YOUR SPELLING');
+        console.log(chalk.red('=================================================================================='));
+        console.log('')
       } else {
-          errors.forEach(err => {
+        records.forEach(record => {
           console.log(chalk.blue('=================================  ERROR RECORD  ================================='));
-          console.log(err);
+          console.log(record);
           console.log(chalk.blue('=================================================================================='));
-      })
-    }
+        })
+      }
     } catch (e) {
       console.log(chalk.red('=================================================================================='));
-      console.log('Something went wrong getting data:', e);
+      console.log('Something went wrong getting data:');
+      console.log(e.message);
       console.log(chalk.red('=================================================================================='));
     } finally {
       await prisma.$disconnect();
@@ -50,7 +78,8 @@ class SearchHead {
       console.log(chalk.blue('================================================================================'))
     } catch (e) {
       console.log(chalk.red('=================================================================================='));
-      console.log('Something went wrong when updating from database:',e);
+      console.log('Something went wrong when updating from database:');
+      console.log(e);
       console.log(chalk.red('=================================================================================='));
     } finally {
       await prisma.$disconnect();
