@@ -9,7 +9,7 @@
   "scripts": {
     "preinstall": "node config.js",
     "postinstall": "rm ./prisma/.env && ln -s ./.env ./prisma/.env && npx prisma introspect && npx prisma generate",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose --watch"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,8 @@
   },
   "homepage": "https://github.com/401-midterm-DaveeRyanBenJon/ohNoLogger#readme",
   "devDependencies": {
-    "@prisma/cli": "^2.9.0"
+    "@prisma/cli": "^2.9.0",
+    "jest": "^26.6.1"
   },
   "dependencies": {
     "@prisma/cli": "^2.9.0",

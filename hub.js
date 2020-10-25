@@ -15,6 +15,15 @@ class ErrorHub {
     };
     events.emit('errEvent', payload);
   }
+
+  logError1(e, metadata) {
+    let payload = {
+      err: e,
+      metadata: metadata
+    }
+    events.emit('errEvent', payload)
+  }
 }
 
-module.exports = ErrorHub;
+module.exports = new ErrorHub();
+

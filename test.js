@@ -1,11 +1,15 @@
 'use strict';
 
-const ErrorHub = require('./hub.js');
-const errorHub = new ErrorHub();
+const errorHub = require('./hub.js');
 
-test1('testParam1');
-test2('testParam2');
-test3('JONNY');
+
+// test1('testParam1');
+// test2('testParam2');
+// test3('JONNY');
+test4('daveeParam4')
+test5('daveeParam5')
+test6()
+
 
 function test1(param) {
   try {
@@ -25,7 +29,6 @@ function test2(param) {
   }
 }
 
-
 function test3(person) {
   try {
     throw new ReferenceError('test3', 'index.js', 10);
@@ -35,28 +38,40 @@ function test3(person) {
 }
 
 
-//// EXAMPLE API CALL
-/*
-
-function fetchLocationDataFromAPI(city, response) {
-  const API = `https://us1.locationiq.com/v1/search.php`;
-  let queryObject = {
-    key: process.env.GEOCODE_API_KEY,
-    q: city,
-    format: 'json'
-  };
-
-  superagent
-    .get(API)
-    .query(queryObject)
-    .then((apiData) => {
-      let location = new Location(apiData.body[0], city);
-      response.status(200).send(location);
-    })
-    .catch((e) => {
-      response.status(500).send('Something went wrong in LOCATION Route using superagent');
-      ohhNo.saveError(e)
-    });
+function test4(param) {
+  try {
+    let num = 123;
+    return num.toUpperCase();
+  } catch (e) {
+    let metadata = {
+      userid: 'ben123',
+      userparam: param,
+      usernote: 'This is ben1243s note'
+    }
+    errorHub.logError1(e, metadata);
+  }
 }
 
-*/
+function test5(param) {
+  try {
+    throw new SyntaxError('test2', 'someFile.js', 10);
+  } catch (e) {
+    let metadata = {
+      userid: 'ryan123',
+      userparam: param,
+    }
+    errorHub.logError1(e, metadata);
+  }
+}
+
+function test6(person) {
+  try {
+    throw new ReferenceError('test3', 'index.js', 10);
+  } catch (e) {
+    let metadata = {
+      userid: 'ryan123',
+    }
+    errorHub.logError1(e, metadata);
+  }
+}
+
