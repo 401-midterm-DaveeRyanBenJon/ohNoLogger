@@ -1,6 +1,6 @@
 {
   "name": "codefellows-slipup",
-  "version": "0.0.06",
+  "version": "0.0.07",
   "description": "401 Codefellows Midterm project using Javascript",
   "main": "hub.js",
   "directories": {
@@ -8,7 +8,7 @@
   },
   "scripts": {
     "preinstall": "node config.js ",
-    "postinstall": "npx prisma init && rm ./prisma/.env && mv .env ./prisma && npx prisma introspect && npm i @prisma/client"
+    "postinstall": "npx prisma init && rm ./prisma/.env && mv .env ./prisma && npx prisma introspect && npm i @prisma/client && node successpig.js"
   },
   "repository": {
     "type": "git",
