@@ -73,9 +73,9 @@ Only the following tags are allowed:
         where: { id: id },
         data: {usernote: usernote}
       });
-      console.log(chalk.blue('===============================  UPDATED RECORD  ==============================='))
+      console.log(chalk.yellow('===============================  UPDATED RECORD  ==============================='))
       console.log(updated);
-      console.log(chalk.blue('================================================================================'))
+      console.log(chalk.yellow('================================================================================'))
     } catch (e) {
       console.log(chalk.red('=================================================================================='));
       console.log('Something went wrong when updating from database:');
