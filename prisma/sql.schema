@@ -1,0 +1,13 @@
+DROP TABLE IF EXISTS errevents;
+
+CREATE TABLE errevents (
+    id SERIAL PRIMARY KEY,
+    date DATE,
+    userid VARCHAR(1000),
+    errortype VARCHAR(1000),
+    errormessage VARCHAR(1000),
+    userparam VARCHAR(1000),
+    usernote VARCHAR(1000),
+    stack TEXT
+    );
+
