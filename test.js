@@ -1,7 +1,6 @@
 'use strict';
 
-const ErrorHub = require('./hub.js');
-const errorHub = new ErrorHub();
+const errorHub = require('./hub.js');
 
 // test1('testParam1');
 // test2('testParam2');
@@ -49,7 +48,7 @@ function test4(param) {
       userparam: param,
       usernote: 'This is dave123 notes'
     };
-    errorHub.logError1(e, metaData);
+    errorHub.logError(e, metaData);
   }
 }
 
@@ -61,7 +60,7 @@ function test5(param) {
       userid: 'ryan234',
       userparam: param,
     };
-    errorHub.logError1(e, metaData);
+    errorHub.logError(e, metaData);
   }
 }
 
@@ -73,7 +72,7 @@ function test6(person) {
     let metaData = {
       userid: 'ben345',
     };
-    errorHub.logError1(e, metaData);
+    errorHub.logError(e, metaData);
   }
 }
 

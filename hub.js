@@ -16,7 +16,7 @@ class ErrorHub {
   //   events.emit('errEvent', payload);
   // }
 
-  logError1(e, obj) {
+  logError(e, obj) {
     let payload = {
       err: e,
       metadata: obj
@@ -25,4 +25,4 @@ class ErrorHub {
   }
 }
 
-module.exports = ErrorHub;
+module.exports = new ErrorHub();
