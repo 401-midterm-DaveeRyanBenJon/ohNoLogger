@@ -69,6 +69,8 @@ Add to Heroku online, add this command to terminal:
 
 ## Explanation of Config Steps
 
+## NOTE: WE MUST MANUALLY REMOVE OUR PRISMA FILE EVERYTIME BEFORE WE PUBLISH TO NPM
+
 https://notathoughtexperiment.me/blog/how-to-do-create-database-dbname-if-not-exists-in-postgres-in-golang/
 
 https://docs.npmjs.com/misc/scripts
