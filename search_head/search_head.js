@@ -52,6 +52,8 @@ Only the following tags are allowed:
       } else {
         records.forEach(record => {
           console.log(chalk.blue('=================================  ERROR RECORD  ================================='));
+          record.date = record.date.toString().slice(0,15);
+          record.time = record.time.toString().slice(16);
           console.log(record);
           console.log(chalk.blue('=================================================================================='));
         })

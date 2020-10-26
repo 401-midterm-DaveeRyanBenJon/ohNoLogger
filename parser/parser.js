@@ -21,6 +21,7 @@ function parse(payload) {
   // sending with metadata Obj
   let data = {
     date: new Date(),
+    time: new Date(),
     userid: payload.metadata.userid || 'no user input',
     errortype: payload.err.name,
     errormessage: payload.err.message,
