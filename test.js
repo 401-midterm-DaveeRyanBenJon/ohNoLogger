@@ -9,7 +9,8 @@ const errorHub = require('./hub.js');
 // test4('testParam4');
 // test5('testParam5');
 // test6('testParam6');
-test7('param7');
+let result = test7('param7');
+console.log('result', result);
 
 ////// Testing with original method
 function test1(param) {
@@ -49,7 +50,7 @@ function test4(param) {
       userparam: param,
       usernote: 'This is dave123 notes'
     };
-    errorHub.logError(e, metaData);
+    errorHub.logError1(e, metaData);
   }
 }
 
@@ -61,7 +62,7 @@ function test5(param) {
       userid: 'ryan234',
       userparam: param,
     };
-    errorHub.logError(e, metaData);
+    errorHub.logError1(e, metaData);
   }
 }
 
@@ -73,7 +74,7 @@ function test6(person) {
     let metaData = {
       userid: 'ben345',
     };
-    errorHub.logError(e, metaData);
+    errorHub.logError1(e, metaData);
   }
 }
 
@@ -81,6 +82,6 @@ function test7(person) {
   try {
     throw new ReferenceError('test3', 'index.js', 10);
   } catch (e) {
-    errorHub.logError(e);
+    errorHub.logError1(e);
   }
 }
