@@ -16,7 +16,7 @@ class ErrorHub {
   //   events.emit('errEvent', payload);
   // }
 
-  logError(e, obj) {
+  logError(e, obj={}) {
     let payload = {
       err: e,
       metadata: obj

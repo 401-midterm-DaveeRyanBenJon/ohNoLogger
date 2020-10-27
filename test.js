@@ -6,9 +6,10 @@ const errorHub = require('./hub.js');
 // test2('testParam2');
 // test3('JONNY');
 
-test4('testParam4');
-test5('testParam5');
-test6('testParam6');
+// test4('testParam4');
+// test5('testParam5');
+// test6('testParam6');
+test7('param7');
 
 ////// Testing with original method
 function test1(param) {
@@ -76,3 +77,10 @@ function test6(person) {
   }
 }
 
+function test7(person) {
+  try {
+    throw new ReferenceError('test3', 'index.js', 10);
+  } catch (e) {
+    errorHub.logError(e);
+  }
+}
