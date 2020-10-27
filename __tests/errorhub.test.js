@@ -25,7 +25,7 @@ describe('ErrorHub should work correctly with valid inputs', () => {
 
   it('Should send data if given just the error object',  async() => {
     let result = await errorHub.logError(e);
-    // expect result to have id, date, time, userid, errortype, errormessage, errormessage, userparam, usernote, and stack property
+    // expect result to have id, date, time, userid, errortype, errormessage, userparam, usernote, and stack property
     /////////    this is our goal??    //////////
     expect(allPropertiesPresent(result)).toEqual(true);
   })

@@ -2,13 +2,13 @@
 
 const errorHub = require('./hub.js');
 
-// test1('testParam1');
-// test2('testParam2');
-// test3('JONNY');
+test1('testParam1');
+test2('testParam2');
+test3('JONNY');
 
-// test4('testParam4');
-// test5('testParam5');
-// test6('testParam6');
+test4('testParam4');
+test5('testParam5');
+test6('testParam6');
 let result = test7('param7');
 console.log('result', result);
 
