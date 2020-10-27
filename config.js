@@ -100,12 +100,13 @@ try{
     const SQL = `CREATE TABLE ${table} (
       id SERIAL PRIMARY KEY,
       date DATE,
+      time TIMESTAMPTZ,
       userid VARCHAR(1000),
       errortype VARCHAR(1000),
       errormessage VARCHAR(1000),
       userparam VARCHAR(1000),
       usernote VARCHAR(1000),
-      stack TEXT)
+      stack TEXT
       ;`
 
       

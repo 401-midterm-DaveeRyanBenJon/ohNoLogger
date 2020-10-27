@@ -9,8 +9,8 @@ test3('JONNY');
 test4('testParam4');
 test5('testParam5');
 test6('testParam6');
-let result = test7('param7');
-console.log('result', result);
+
+test7('hello');
 
 ////// Testing with original method
 function test1(param) {
