@@ -8,10 +8,8 @@ const errorHub = require('../hub.js');
 
 ///// Helper Test Function
 function allPropertiesPresent(dbResults) {
-
   let allPresent = true;
   let properties = ['id','date','time','errortype','errormessage','userparam','usernote','stack']
-
   properties.forEach(property => {
     if (!dbResults[property]) {
       allPresent = false

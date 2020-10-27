@@ -14,7 +14,7 @@ function parse(payload) {
       userid: payload.userid,
       errortype: payload.err.name,
       errormessage: payload.err.message,
-      userparam: payload.userparam,
+      userparam: JSON.stringify(payload.userparam),
       usernote: payload.usernote,
       stack: payload.err.stack,
     };
@@ -27,7 +27,7 @@ function parse(payload) {
       userid: payload.metadata.userid || 'no user input',
       errortype: payload.err.name,
       errormessage: payload.err.message,
-      userparam: payload.metadata.userparam || 'no user input',
+      userparam: JSON.stringify(payload.metadata.userparam) || 'no user input',
       usernote: payload.metadata.usernote || 'no user input',
       stack: payload.err.stack,
     };

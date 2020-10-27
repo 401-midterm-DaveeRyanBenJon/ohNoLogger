@@ -18,7 +18,7 @@ function test1(param) {
     let num = 123;
     return num.toUpperCase();
   } catch (e) {
-    errorHub.logError(e, 'ryan987', '', 'This is ben1243s note');
+    errorHub.logError(e, 'ryan987', [1,2,3,4], 'This is ben1243s note');
   }
 }
 
@@ -26,7 +26,7 @@ function test2(param) {
   try {
     throw new SyntaxError('test2', 'someFile.js', 10);
   } catch (e) {
-    errorHub.logError(e, 'davee1234', param, 'this is notes from test 2 function');
+    errorHub.logError(e, 'davee1234', true, 'this is notes from test 2 function');
   }
 }
 
@@ -47,7 +47,7 @@ function test4(param) {
   } catch (e) {
     let metaData = {
       userid: 'dave123',
-      userparam: param,
+      userparam: {hello:'hello'},
       usernote: 'This is dave123 notes'
     };
     errorHub.logError1(e, metaData);
@@ -60,7 +60,7 @@ function test5(param) {
   } catch (e) {
     let metaData = {
       userid: 'ryan234',
-      userparam: param,
+      userparam: 1000,
     };
     errorHub.logError1(e, metaData);
   }
