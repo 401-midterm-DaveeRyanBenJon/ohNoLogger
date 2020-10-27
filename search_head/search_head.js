@@ -106,6 +106,17 @@ Only the following tags are allowed:
       await prisma.$disconnect();
     }
   }
+
+  async deleteAll() {
+    try {
+      const deleteAll = await prisma.errevents.deleteMany();
+      console.log('deleteAll:', deleteAll);
+    } catch(e) {
+      console.log(e)
+    } finally {
+      await prisma.$disconnect();
+    }
+  }
 }
 
 module.exports = new SearchHead();

@@ -79,5 +79,13 @@ yargs.command({
   }
 });
 
+yargs.command({
+  command: 'deleteAll',
+  desribe: 'Delete everything from database',
+  handler() {
+    searchHead.deleteAll();
+  }
+});
+
 
 yargs.parse();

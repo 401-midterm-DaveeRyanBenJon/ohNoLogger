@@ -24,7 +24,7 @@ function allPropertiesPresent(dbResults) {
 describe('ErrorHub should work correctly with valid inputs', () => {
 
   it('Should send data if given just the error object',  async() => {
-    let result = await errorHub.logError(e);
+    errorHub.logError(e);
     // expect result to have id, date, time, userid, errortype, errormessage, userparam, usernote, and stack property
     /////////    this is our goal??    //////////
     expect(allPropertiesPresent(result)).toEqual(true);
@@ -36,7 +36,8 @@ describe('ErrorHub should work correctly with valid inputs', () => {
       userid: 'ben345',
     };
 
-    let result = await errorHub.logError(e, metaData);
+    errorHub.logError(e, metaData);
+    // query mock database to see if 
     // expect result to have id, date, time, userid, errortype, errormessage, errormessage, userparam, usernote, and stack property
     expect(allPropertiesPresent(result)).toEqual(true);
   })
@@ -48,7 +49,7 @@ describe('ErrorHub should work correctly with valid inputs', () => {
       userparam: 'param',
     };
 
-    let result = await errorHub.logError(e, metaData);
+    errorHub.logError(e, metaData);
     expect(allPropertiesPresent(result)).toEqual(true);
   })
 
