@@ -6,15 +6,23 @@ const forwarder = require('./forwarder/forwarder');
 
 class ErrorHub {
 
-  logError(e, userid = null, userparam = null, usernote = null) {
+  // logError(e, userid = null, userparam = null, usernote = null) {
+  //   let payload = {
+  //     err: e,
+  //     userid: userid,
+  //     userparam: userparam,
+  //     usernote: usernote,
+  //   };
+  //   events.emit('errEvent', payload);
+  // }
+
+  logError(e, obj={}) {
     let payload = {
       err: e,
-      userid: userid,
-      userparam: userparam,
-      usernote: usernote,
+      metadata: obj
     };
     events.emit('errEvent', payload);
   }
 }
 
-module.exports = ErrorHub;
+module.exports = new ErrorHub();

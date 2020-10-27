@@ -23,10 +23,11 @@
   "homepage": "https://github.com/401-midterm-DaveeRyanBenJon/ohNoLogger#readme",
   "dependencies": {
     "@prisma/cli": "^2.9.0",
+    "@prisma/client": "^2.9.0",
     "chalk": "^4.1.0",
     "inquirer": "^7.3.3",
     "jsdoc": "^3.6.6",
-    "pg": "^8.4.1",
+    "pg": "^8.4.2",
     "uuid": "^8.3.1",
     "yargs": "^16.1.0"
   }
