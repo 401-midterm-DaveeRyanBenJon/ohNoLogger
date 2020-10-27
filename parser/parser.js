@@ -24,11 +24,11 @@ function parse(payload) {
     let data = {
       date: new Date(),
       time: new Date(),
-      userid: payload.metadata.userid || 'no user input',
+      userid: payload.metadata.userid || null,
       errortype: payload.err.name,
       errormessage: payload.err.message,
-      userparam: JSON.stringify(payload.metadata.userparam) || 'no user input',
-      usernote: payload.metadata.usernote || 'no user input',
+      userparam: JSON.stringify(payload.metadata.userparam) || null,
+      usernote: payload.metadata.usernote || null,
       stack: payload.err.stack,
     };
     events.emit('toIndexer', data);
