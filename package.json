@@ -1,0 +1,38 @@
+{
+  "name": "codefellows-slipup",
+  "version": "0.0.07",
+  "description": "401 Codefellows Midterm project using Javascript",
+  "main": "hub.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "preinstall": "node config.js ",
+    "postinstall": "npx prisma init && rm ./prisma/.env && mv .env ./prisma && npx prisma introspect && npm i @prisma/client && node successpig.js",
+    "test": "jest --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/401-midterm-DaveeRyanBenJon/ohNoLogger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/401-midterm-DaveeRyanBenJon/ohNoLogger/issues"
+  },
+  "homepage": "https://github.com/401-midterm-DaveeRyanBenJon/ohNoLogger#readme",
+  "dependencies": {
+    "@prisma/client": "^2.10.0",
+    "chalk": "^4.1.0",
+    "inquirer": "^7.3.3",
+    "jest": "^26.6.1",
+    "jsdoc": "^3.6.6",
+    "pg": "^8.4.2",
+    "uuid": "^8.3.1",
+    "yargs": "^16.1.0"
+  },
+  "devDependencies": {
+    "@prisma/cli": "^2.10.0"
+  }
+}
