@@ -24,12 +24,12 @@ try{
     },
     {
       name: 'database',
-      message: 'What is your desired PostGres db?  If empty, will default to splunk.',
+      message: 'What is your desired PostGres db?  If empty, will default to splunk.  Please note, if you use postgres in your project your env must not leave DATABASE_URL available',
       default: 'splunk'
     },
     {
       name: 'table',
-      message: 'What is your desired PostGres table name?  If empty, will default to errevents.',
+      message: 'Slipup currently only supports one table name: errevents',
       default: 'errevents'
     }
 ]);
@@ -39,7 +39,7 @@ try{
     password: cliInput.password,
     port: cliInput.port,
     database: cliInput.database,
-    table: cliInput.table 
+    table: 'errevents' 
   }
 
   let data = `DATABASE_URL=postgresql://${cliInput.username}:${cliInput.password}@localhost:${cliInput.port}/${cliInput.database}?schema=public`
@@ -97,17 +97,19 @@ try{
 
     //INITIALIZE TABLE
 
-    const SQL = `CREATE TABLE ${table} (
-      id SERIAL PRIMARY KEY,
-      date DATE,
-      time TIMESTAMPTZ,
-      userid VARCHAR(1000),
-      errortype VARCHAR(1000),
-      errormessage VARCHAR(1000),
-      userparam VARCHAR(1000),
-      usernote VARCHAR(1000),
-      stack TEXT
-      ;`
+    const SQL = `DROP TABLE IF EXISTS errevents;
+
+    CREATE TABLE errevents (
+        id SERIAL PRIMARY KEY,
+        date DATE,
+        time TIMESTAMPTZ,
+        userid VARCHAR(1000),
+        errortype VARCHAR(1000),
+        errormessage VARCHAR(1000),
+        userparam VARCHAR(1000),
+        usernote VARCHAR(1000),
+        stack TEXT
+        );`
 
       
 
