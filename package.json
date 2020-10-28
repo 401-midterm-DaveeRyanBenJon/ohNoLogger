@@ -1,7 +1,7 @@
 {
   "name": "errorproject",
   "version": "1.0.0",
-  "description": "401 Codefellows Midterm project using Javascript",
+  "description": "401 Codefellows Midterm project using Javascript and Python",
   "main": "hub.js",
   "directories": {
     "doc": "docs"

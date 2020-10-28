@@ -1,3 +1,18 @@
+# More specific exceptions at the top
+# try:
+#     f = open('testfile.txt')
+# except FileNotFoundError as e:
+#     print(e)
+# except Exception as e:
+#     print(e)
+# # Else runs code of the try/exception doesn't catch something
+# else:
+#     print(f.read())
+#     f.close()
+# finally:
+#     # probably used to disconnect db
+#     print('Executing finally')
+
 # # CLASS
 # # __init__ = constructor
 # # self = javascript equivalent of "this" but can be named anything
@@ -17,8 +32,23 @@
 # print(emp_1.fullname())
 # print(emp_2)
 
-class ErrorHub:
-    def log_error(self, userid=null, userparam=null, usernote=null):
-        errors: e
-        userid: userid
-        userpararm: userparam
+# event = Threading.event()
+# event.set()
+
+# event.clear()
+
+# event.wait()
+
+# event.is_set()
+
+from pymitter import EventEmitter
+
+events = EventEmitter()
+
+
+class Error_Hub:
+    def log_error(self, e, userid=None, userparam=None, usernote=None):
+        self.errors = e
+        self.userid = userid
+        self.userpararm = userparam
+        events.emit('errEvent')
