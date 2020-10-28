@@ -16,14 +16,13 @@ class ErrorHub {
     events.emit('errEvent', payload);
   }
 
-  logError1(e, metadata) {
+  logError1(e, obj = {}) {
     let payload = {
       err: e,
-      metadata: metadata
-    }
-    events.emit('errEvent', payload)
+      metadata: obj
+    };
+    events.emit('errEvent', payload);
   }
 }
 
 module.exports = new ErrorHub();
-

@@ -3,7 +3,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const pg = require('pg');
-const chalk = require('chalk');
+
 
 async function input(){
 try{
@@ -14,7 +14,8 @@ try{
     },
     {
       name: 'password',
-      message: 'What is your PostGres password?'
+      message: 'What is your PostGres password?',
+      type: 'password'
     },
     {
       name: 'port',
@@ -98,14 +99,17 @@ try{
 
     const SQL = `CREATE TABLE ${table} (
       id SERIAL PRIMARY KEY,
-      datetime timestamptz,
-      userid varchar(1000),
-      errortype varchar(1000),
-      errormessage varchar(1000),
-      userparam varchar(1000),
-      usernote varchar(1000),
-      stack TEXT)
+      date DATE,
+      time TIMESTAMPTZ,
+      userid VARCHAR(1000),
+      errortype VARCHAR(1000),
+      errormessage VARCHAR(1000),
+      userparam VARCHAR(1000),
+      usernote VARCHAR(1000),
+      stack TEXT
       ;`
+
+      
 
     await client.query(SQL);
     await client.end();
@@ -121,26 +125,6 @@ try{
 async function execute(){
   await input();
   await setupPg();
-  console.log(chalk.green('SlipUp installation complete! :) Ready to analyze and criticize your pork tenderloin!'));
-  console.log(chalk.green('******************************************************************************************'));
-  console.log(chalk.green(`
-                                             )\\   /|
-                                          .-/'-|_/ |
-                       __            __,-' (   / \\/          
-                   .-'"  "'-..__,-'""          -o. -._   
-                  /                                   '/
-          *--._ ./                                 _.-- 
-                |                              _.-' 
-                :                           .-/   
-                 \\                       )_ /
-                  \\                _)   / \\(
-                     .   /-.___.---'(  /   \\\\
-                     (  /   \\\\       \\(     L\\
-                      \\(     L\\       \\\\
-                       \\\\              \\\\
-                        L\\              L\\
-  
-  `));
   process.exit()
 };
 

@@ -3,6 +3,7 @@ DROP TABLE IF EXISTS errevents;
 CREATE TABLE errevents (
     id SERIAL PRIMARY KEY,
     date DATE,
+    time TIMESTAMPTZ,
     userid VARCHAR(1000),
     errortype VARCHAR(1000),
     errormessage VARCHAR(1000),

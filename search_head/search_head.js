@@ -2,7 +2,7 @@
 
 const chalk = require('chalk');
 const { PrismaClient } = require('@prisma/client')
-const prisma = new PrismaClient()
+const prisma = new PrismaClient();
 
 class SearchHead {
 
@@ -52,6 +52,8 @@ Only the following tags are allowed:
       } else {
         records.forEach(record => {
           console.log(chalk.blue('=================================  ERROR RECORD  ================================='));
+          record.date = record.date.toString().slice(0, 15);
+          record.time = record.time.toString().slice(16);
           console.log(record);
           console.log(chalk.blue('=================================================================================='));
         })
@@ -73,9 +75,9 @@ Only the following tags are allowed:
         where: { id: id },
         data: { usernote: usernote }
       });
-      console.log(chalk.bold.blue('<===============================--UPDATED RECORD--===============================>'))
+      console.log(chalk.yellow('===============================  UPDATED RECORD  ==============================='))
       console.log(updated);
-      console.log(chalk.bold.blue('<================================================================================>'))
+      console.log(chalk.yellow('================================================================================'))
     } catch (e) {
       console.log(chalk.red('=================================================================================='));
       console.log('Something went wrong when updating from database:');
@@ -100,6 +102,17 @@ Only the following tags are allowed:
       console.log('Something went wrong when deleting from database:');
       console.log(e);
       console.log(chalk.bold.red('<==================================================================================>'));
+    } finally {
+      await prisma.$disconnect();
+    }
+  }
+
+  async deleteAll() {
+    try {
+      const deleteAll = await prisma.errevents.deleteMany();
+      console.log('deleteAll:', deleteAll);
+    } catch (e) {
+      console.log(e)
     } finally {
       await prisma.$disconnect();
     }
