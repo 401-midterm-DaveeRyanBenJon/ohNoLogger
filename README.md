@@ -39,6 +39,7 @@ Link below will show you our progress notation.
 <img  align="left"alt="chalk "width="57px" src="./assets/img/chalkpic.png"/>
 </br>
 </br>
+
 <pre>
 <b>Javascript ➡ Node.js ➡ Sql ➡ Inquirer ➡ PostgreSql ➡ Prisma ➡ Npm ➡ Chalk</b>
 </pre>
