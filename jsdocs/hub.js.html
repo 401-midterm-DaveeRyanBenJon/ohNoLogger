@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: ErrorHub Docs</title>
+    <title>JSDoc: Source: hub.js</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,32 +17,50 @@
 
 <div id="main">
 
-    <h1 class="page-title">ErrorHub Docs</h1>
+    <h1 class="page-title">Source: hub.js</h1>
 
     
 
 
 
     
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>'use strict';
 
+const events = require('./events.js');
+const forwarder = require('./forwarder/forwarder');
 
-    <h3> </h3>
+/**
+ * logError
+ * @param {object} e - Error Object
+ * 
+ */
+class ErrorHub {
 
+  logError(e, userid = null, userparam = null, usernote = null) {
+    let payload = {
+      err: e,
+      userid: userid,
+      userparam: userparam,
+      usernote: usernote,
+    };
+    events.emit('errEvent', payload);
+  }
 
+  logError1(e, obj={}) {
+    let payload = {
+      err: e,
+      metadata: obj
+    };
+    events.emit('errEvent', payload);
+  }
+}
 
-
-
-
-
-
-
-
-    
-
-
-
-
-
+module.exports = new ErrorHub();
+</code></pre>
+        </article>
+    </section>
 
 
 

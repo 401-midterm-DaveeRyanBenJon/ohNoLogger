@@ -3,13 +3,11 @@
   "version": "0.0.18",
   "description": "401 Codefellows Midterm project using Javascript",
   "main": "hub.js",
-  "directories": {
-    "doc": "docs"
-  },
   "scripts": {
     "preinstall": "node config.js ",
     "postinstall": "npx prisma init && rm ./prisma/.env && mv .env ./prisma && npx prisma introspect && npm i @prisma/client && node successpig.js",
-    "test": "jest --verbose --coverage"
+    "test": "jest --verbose --coverage",
+    "doc": "jsdoc -c jsdoc.json"
   },
   "repository": {
     "type": "git",
@@ -27,9 +25,10 @@
     "@prisma/cli": "^2.10.0",
     "chalk": "^4.1.0",
     "inquirer": "^7.3.3",
-    "jsdoc": "^3.6.6",
     "pg": "^8.4.2",
     "uuid": "^8.3.1",
-    "yargs": "^16.1.0"
+    "yargs": "^16.1.0",
+    "jsdoc": "^3.6.6"
   }
+
 }
