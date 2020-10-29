@@ -64,6 +64,7 @@ Link below will show you our progress notation.
 
 ## Getting started
 1. Install SlipUp library with the following commands. 
+</br>
 Note: must have npm installer.
 ```
 $npm i codefellows-slipup
