@@ -11,7 +11,7 @@ An npm package library that logs and saves error events in a PostgreSql database
 
 
 
-**Version**: 0.0.7
+**Version**: 0.1.9
 
 ## Project Overview
 Purpose of our application is provide user with an easy method to automatically log, filter, and search through their projects error events.
