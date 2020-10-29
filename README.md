@@ -70,7 +70,8 @@ $npm i codefellows-slipup
 ```
 2. Input Postgres username.
 ```
-Upon installation, SlipUp will request Postgres username. Note: User must have a Postgres account.
+Upon installation, SlipUp will request Postgres username. Note: User must have a Postgres account.  
+
 Note: Mac users should use mac login credentials.
 ```
 3. Postgres password. 
