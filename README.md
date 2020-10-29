@@ -39,7 +39,6 @@ Link below will show you our progress notation.
 <img  align="left"alt="chalk "width="57px" src="./assets/img/chalkpic.png"/>
 </br>
 </br>
-
 <pre>
 <b>Javascript ➡ Node.js ➡ Sql ➡ Inquirer ➡ PostgreSql ➡ Prisma ➡ Npm ➡ Chalk</b>
 </pre>
@@ -167,4 +166,5 @@ Add to Heroku online, add this command to terminal:
 
 post install remove prisma .env file, sym link to .env in node modules, then run prisma intro and generate steps
 #
+
 
