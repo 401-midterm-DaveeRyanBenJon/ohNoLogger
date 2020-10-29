@@ -145,7 +145,6 @@ database when it is called.
 </br>
 
  *parameter:*
- 
 </br>
 This parameter is required. It take a parameter variable.
 </br>
