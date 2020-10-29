@@ -123,15 +123,14 @@ database when it is called.
   - Error name
   - Error message
   - Error stack
-#
+
  *userId:*
 </br>
   This parameter is required. It takes a string.
 </br>
   Note: This parameter is used to identify the userId for the programmer. This is used
   to identify a developer's userId to an error event.
-  
-</br>
+
 
  *parameter:*
 </br>
@@ -139,7 +138,6 @@ This parameter is required. It take a parameter variable.
 </br>
  Note: This parameter is used in the function. Purpose is to track which parameter initiated an error
 
-</br>
 
 *customNote:*
 </br>
