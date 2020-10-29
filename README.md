@@ -259,23 +259,4 @@ Add to Heroku online, add this command to terminal:
 - \dt - to view the tables in your database
 - \q to quit
 ```
-# 
-### Objectives
-
-- [ ] node.js documentation => access build in api methods
-# 
-
-### Explanation of Config Steps
-
-- [Create database](https://notathoughtexperiment.me/blog/how-to-do-create-database-dbname-if-not-exists-in-postgres-in-golang/)
-
-- [Using Scripts](https://docs.npmjs.com/misc/scripts)
-
-    ```
-    postinstall: "rm ./prisma/.env && ln -s ./.env ./prisma/.env && npx prisma introspect && npx prisma generate",
-    ```
-
-post install remove prisma .env file, sym link to .env in node modules, then run prisma intro and generate steps
-#
-
 
