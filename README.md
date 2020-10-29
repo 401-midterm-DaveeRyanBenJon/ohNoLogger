@@ -113,7 +113,7 @@ database when it is called.
 <i>slipUp.logError(errorObject, userId, parameter, customNote);</i>
 </pre>
  **Parameters** 
- 
+
  </br>
 
 *errorObject:* 
@@ -125,7 +125,7 @@ database when it is called.
   - Error name
   - Error message
   - Error stack
-#
+
  *userId:*
 </br>
   This parameter is required. It takes a string.
