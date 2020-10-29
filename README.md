@@ -23,7 +23,6 @@ Handles data pipeline through 3 distinct tiers.
 - Forwarder
 - Indexer
 - Search Head
-
 ```
 #
 

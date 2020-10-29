@@ -26,7 +26,7 @@ class ErrorHub {
     };
     events.emit('errEvent', payload);
   }
-/**
+  /**
  * logError1
  * @param {*} e - Error object
  * @param {*} obj - Meta data option
