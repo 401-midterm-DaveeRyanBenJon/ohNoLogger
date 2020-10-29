@@ -28,8 +28,8 @@ class ErrorHub {
   }
 /**
  * logError1
- * @param {*} e -
- * @param {*} obj -
+ * @param {*} e - Error object
+ * @param {*} obj - Meta data option
  */
   logError1(e, obj={}) {
     let payload = {
