@@ -133,7 +133,7 @@ database when it is called.
   - Error name
   - Error message
   - Error stack
-</br>
+#
  *userId:*
 </br>
   This parameter is required. It takes a string.
@@ -163,7 +163,9 @@ This parameter is required. It take a parameter variable.
 These are command options we can use in our cli(command line interface/ terminal).
 </br>
 *Entering the command line*
+```
 cd into node_modules/codefellows-slipup
+```
 Note: In order to use a tag command we need to add two dashes **--** before selecting each command.
 The following commands are valid in the command line.
 ```
@@ -174,31 +176,50 @@ The following commands are valid in the command line.
 ```
 
 **List of tag commands for get method**
+Shows you a list of errors stored in your database
 ```
   --id
   --userid
   --date
   --errortype
   --userparam
-- $get
-- $update
-- $delete
-
 ```
 
-**An example of a tag command in cli** 
+**An example of a get command in cli** 
 ```
 - $node query get --userid=“userid124” --errortype=ReferenceError
 
 ```
+#
+**List of tag commands for update method**
+Allows users to update a note for an error.
+Update error based on recordId and new Note.
+```
+--id
+--usernote
 
+```
+**An example of a update command in cli**
+</br>
+```
+- $node query update --id=24 --usernote="this is the new updated note"
 
-
+```
+**List of tag commands for delete method**
+Allows users to delete based on record id.
+```
+--id
+```
+**An example of a delete command in cli**
+</br>
+```
+- $node query delete --id=24 
+```
 #
 
 ## Information about Prisma
 Prisma is used to help with Postgres.
-
+#
 ### Prisma Install Instructions
 Note: Prisma is automatically installed upon SlipUp installation. These links are purely for documentation purposes.
 

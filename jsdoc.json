@@ -1,6 +1,6 @@
 {
     "source":{
-        "include": ["src"],
+        "include": ["hub.js"],
         "includedPattern": ".js$",
         "excludedPattern": "(node_modules/|jsdocs)"
     },
