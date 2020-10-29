@@ -113,7 +113,9 @@ database when it is called.
 <i>slipUp.logError(errorObject, userId, parameter, customNote);</i>
 </pre>
  **Parameters** 
+ 
  </br>
+
 *errorObject:* 
 </br>
   This parameter is required. This is the error object in your try catch block.
