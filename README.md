@@ -5,13 +5,13 @@ An npm package library that logs and saves error events in a PostgreSql database
     <img src="https://komarev.com/ghpvc/?username=jonnyleealas">
 </a>
 
-[![Version](https://img.shields.io/badge/version-0.0.7-brightgreen.svg)](https://github.com/jonnyleealas/ohnologger)
+[![Version](https://img.shields.io/badge/version-1.0.0-brightgreen.svg)](https://github.com/jonnyleealas/ohnologger)
 
 **Contributors**: Ryan Geddes, Davee Sok, Ben Hill, Jonathon Lee.
 
 
 
-**Version**: 0.0.7
+**Version**: 1.0.0
 
 ## Project Overview
 Purpose of our application is provide user with an easy method to automatically log, filter, and search through their projects error events.
@@ -31,18 +31,7 @@ Handles data pipeline through 3 distinct tiers.
 Our UML diagram will give you insight on how SlipUp is wired. Click below for a whiteboard visual.
 - [Phase 1](./assets/phaseuml.md)
 - [Phase 2](./assets/img/slideuml.png)
-#
 
-## Project Tasks
-- [x] Powerpoint
-- [x] List of installation steps
-- [ ] [Problem Domain Link](./requirements.md)
-## Project notes
-
-Every project needs a task list and notes for consistent progress and documentation. 
-We used github projects do document our build progress. 
-Link below will show you our progress notation.
-- [Project](https://github.com/401-midterm-DaveeRyanBenJon/ohNoLogger/projects/1)
 #
 
 ## Dependencies and Tools
@@ -70,7 +59,8 @@ $npm i codefellows-slipup
 ```
 2. Input Postgres username.
 ```
-Upon installation, SlipUp will request Postgres username. Note: User must have a Postgres account.
+Upon installation, SlipUp will request Postgres username. 
+User must have a Postgres account.  
 Note: Mac users should use mac login credentials.
 ```
 3. Postgres password. 
@@ -142,17 +132,20 @@ database when it is called.
   to identify a developer's userId to an error event.
   
 </br>
+
  *parameter:*
 </br>
 This parameter is required. It take a parameter variable.
- </br>
- Note: This parameter is used in the function. Purpose is to track which parameter initiated an error
 </br>
- *customNote:*
-  </br>
-  This parameter is required. It takes a string.
-   </br>
-   This gives the ability for a programmer to create custom notes for error events.
+ Note: This parameter is used in the function. Purpose is to track which parameter initiated an error
+
+</br>
+
+*customNote:*
+</br>
+This parameter is required. It takes a string.
+</br>
+This gives the ability for a programmer to create custom notes for error events.
 
 
 
@@ -215,63 +208,4 @@ Allows users to delete based on record id.
 ```
 - $node query delete --id=24 
 ```
-#
-
-## Information about Prisma
-Prisma is used to help with Postgres.
-#
-### Prisma Install Instructions
-Note: Prisma is automatically installed upon SlipUp installation. These links are purely for documentation purposes.
-
-- [Prisma Installation](./assets/prismainstall.md)
-- [Prisma Tutorial Link1](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch-sql-typescript-postgres)
-- [Prisma Tutorial Link2](https://www.youtube.com/watch?v=0RhtQgIs-TE)
-
-#
-
-
-
-### Sql cli database commands:
-
-- Enter: `psql` >>> Opens psql in terminal
-- \c into table >>> Lets you view a table
-- \dt describe table >>> lets you view whats in table.
-- Enter: `CREATE DATABASE dbname`;
-  **In .env:**
-
-```
-`DATABASE_URL = postgres:localhost:5432/DATABASE-NAME`
-To use schema file to start database:
-`psql -f file.sql -d DATABASE-NAME`
-Add to Heroku online, add this command to terminal:
-`heroku pg:psql -f path/to/schema-file.sql --app your-heroku-app-name-here`
-```
-
-### List of Common Commands:
-
-```
-- \l - to view all databases
-- \c DATABASE-NAME - to navigate into your database
-- \dt - to view the tables in your database
-- \q to quit
-```
-# 
-### Objectives
-
-- [ ] node.js documentation => access build in api methods
-# 
-
-### Explanation of Config Steps
-
-- [Create database](https://notathoughtexperiment.me/blog/how-to-do-create-database-dbname-if-not-exists-in-postgres-in-golang/)
-
-- [Using Scripts](https://docs.npmjs.com/misc/scripts)
-
-    ```
-    postinstall: "rm ./prisma/.env && ln -s ./.env ./prisma/.env && npx prisma introspect && npx prisma generate",
-    ```
-
-post install remove prisma .env file, sym link to .env in node modules, then run prisma intro and generate steps
-#
-
 
